@@ -48,7 +48,7 @@
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(0, 242, 255, 0.03)" stroke-width="1"/>
     </pattern>
     
-    <!-- SMIL animated clip-rects for 100% browser compatibility -->
+    <!-- SMIL animated clip-rects - Fixed XML closing tags -->
     <clipPath id="clip1">
       <rect x="0" y="0" height="75" width="0">
         <animate 
@@ -58,7 +58,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
     <clipPath id="clip2">
       <rect x="0" y="0" height="75" width="0">
@@ -69,7 +69,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
     <clipPath id="clip3">
       <rect x="0" y="0" height="75" width="0">
@@ -80,7 +80,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
     <clipPath id="clip4">
       <rect x="0" y="0" height="75" width="0">
@@ -91,7 +91,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
     <clipPath id="clip5">
       <rect x="0" y="0" height="75" width="0">
@@ -102,7 +102,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
     <clipPath id="clip6">
       <rect x="0" y="0" height="75" width="0">
@@ -113,7 +113,7 @@
           dur="24s" 
           repeatCount="indefinite" 
         />
-      </clipPath>
+      </rect>
     </clipPath>
   </defs>
   <rect width="100%" height="100%" fill="url(#grid)" rx="8" />
