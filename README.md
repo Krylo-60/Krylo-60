@@ -55,6 +55,13 @@
 <!-- Custom Tech Stack Grid -->
 <img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
 
+<br/><br/>
+
+<!-- GitHub Streak Stats -->
+<a href="https://git.io/streak-stats">
+<img src="https://streak-stats.demolab.com/?user=Krylo-60&theme=tokyonight&background=050a14&ring=00f2ff&fire=00f2ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7bdcff&sideLabels=7bdcff&dates=7bdcff&hide_border=true" alt="GitHub Streak Stats" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+</a>
+
 </td>
 
 <!-- Right Column (Stats & Projects) -->
@@ -106,7 +113,14 @@
 <tr>
 <td colspan="2" align="center">
 
-<h3>👾 System Activity Board (Contribution Snake)</h3>
+<h3>📈 Git Activity Telemetry (31-Day Window)</h3>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krylo-60&bg_color=050a14&color=00f2ff&line=00f2ff&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" max-width="750px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+</a>
+
+<br/><br/>
+
+<h3>👾 Contribution Matrix Snake Game</h3>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake.svg" />
