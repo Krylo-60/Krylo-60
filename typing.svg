@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 75" width="800" height="75">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
-    
     .bg {
       fill: #050a14;
       stroke: rgba(0, 242, 255, 0.15);
@@ -9,12 +7,11 @@
     }
     
     .text {
-      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-weight: 700;
       font-size: 20px;
       fill: #00f2ff;
       text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
-      dominant-baseline: middle;
     }
 
     .cursor {
@@ -175,42 +172,42 @@
   </defs>
   <rect width="100%" height="100%" fill="url(#grid)" rx="8" />
 
-  <!-- Fixed Prefix -->
-  <text class="text" x="30" y="37.5">HI, I AM KRISHIV AND I BUILD </text>
+  <!-- Fixed Prefix with xml:space="preserve" to prevent space collapsing -->
+  <text class="text" x="30" y="44" xml:space="preserve">HI, I AM KRISHIV AND I BUILD </text>
 
   <!-- Group 1: STUFF ON THE INTERNET -->
-  <g class="line-group line1" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip1)">STUFF ON THE INTERNET</text>
-    <rect class="cursor cursor-rect cur1" y="-12" width="10" height="24" />
+  <g class="line-group line1" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip1)">STUFF ON THE INTERNET</text>
+    <rect class="cursor cursor-rect cur1" y="26" width="10" height="24" />
   </g>
 
   <!-- Group 2: AI APPLICATIONS -->
-  <g class="line-group line2" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip2)">AI APPLICATIONS</text>
-    <rect class="cursor cursor-rect cur2" y="-12" width="10" height="24" />
+  <g class="line-group line2" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip2)">AI APPLICATIONS</text>
+    <rect class="cursor cursor-rect cur2" y="26" width="10" height="24" />
   </g>
 
   <!-- Group 3: GAMES ON ROBLOX -->
-  <g class="line-group line3" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip3)">GAMES ON ROBLOX</text>
-    <rect class="cursor cursor-rect cur3" y="-12" width="10" height="24" />
+  <g class="line-group line3" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip3)">GAMES ON ROBLOX</text>
+    <rect class="cursor cursor-rect cur3" y="26" width="10" height="24" />
   </g>
 
   <!-- Group 4: COOL WEB EXPERIENCES -->
-  <g class="line-group line4" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip4)">COOL WEB EXPERIENCES</text>
-    <rect class="cursor cursor-rect cur4" y="-12" width="10" height="24" />
+  <g class="line-group line4" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip4)">COOL WEB EXPERIENCES</text>
+    <rect class="cursor cursor-rect cur4" y="26" width="10" height="24" />
   </g>
 
   <!-- Group 5: VIBE CODE -->
-  <g class="line-group line5" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip5)">VIBE CODE</text>
-    <rect class="cursor cursor-rect cur5" y="-12" width="10" height="24" />
+  <g class="line-group line5" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip5)">VIBE CODE</text>
+    <rect class="cursor cursor-rect cur5" y="26" width="10" height="24" />
   </g>
 
   <!-- Group 6: VIBE CODING -->
-  <g class="line-group line6" transform="translate(378, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip6)">VIBE CODING</text>
-    <rect class="cursor cursor-rect cur6" y="-12" width="10" height="24" />
+  <g class="line-group line6" transform="translate(378, 0)">
+    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip6)">VIBE CODING</text>
+    <rect class="cursor cursor-rect cur6" y="26" width="10" height="24" />
   </g>
 </svg>
