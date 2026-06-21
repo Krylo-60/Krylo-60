@@ -26,7 +26,7 @@
 </a>
 </p>
 
-<p><i>"Built to inspire. Built to dominate. Built by a Grade 6 Master Coder."</i></p>
+<p><i>"Built to inspire. Built to dominate. Built by a Grade 7 Master Coder."</i></p>
 </div>
 
 <hr/>
@@ -39,7 +39,7 @@
 
 <h3>⚡ System Profile</h3>
 <ul>
-<li><b>Age & Status:</b> 12-year-old student developer creating bold web experiences.</li>
+<li><b>Age & Status:</b> 11-year-old student developer creating bold web experiences.</li>
 <li><b>Philosophy:</b> Try ideas fast, build without bloat, and refine constantly.</li>
 <li><b>AI Alliance:</b> Partnering with autonomous AI agents (Gemini & Antigravity) to hyper-accelerate codebases.</li>
 <li><b>Current Objective:</b> Expanding the <b>Krishiv Velocity</b> digital universe.</li>
