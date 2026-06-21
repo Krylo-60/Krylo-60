@@ -1,15 +1,15 @@
 <!-- Cyber-Header -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krishiv-portfolio/main/social-preview.jpg" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
+<img src="https://raw.githubusercontent.com/Krylo-60/Krishiv-portfolio/master/social-preview.jpg" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
 
 <br/><br/>
 
 <h1>🚀 Krishiv Velocity</h1>
 <h3>Grade 7 Master Coder | Full-Stack Creator | Gamer</h3>
 
-<!-- Typing Banner SVG with Cache-Buster v1.3 -->
+<!-- Typing Banner SVG with Cache-Buster v1.4 -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.3" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.4" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
 </a>
 
 <br/><br/>
