@@ -1,10 +1,7 @@
 <!-- Cyber-Header -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/banner.png?v=1.0" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
-
-<br/><br/>
-
 <h1>🚀 Krishiv Velocity</h1>
+
 <h3>Grade 7 Master Coder | Full-Stack Creator | Gamer</h3>
 
 <!-- Typing Banner SVG with Cache-Buster v1.5 -->
