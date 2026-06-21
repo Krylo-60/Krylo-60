@@ -16,7 +16,7 @@
       text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
       dominant-baseline: middle;
     }
-    
+
     .cursor {
       fill: #00f2ff;
       animation: blink 0.8s infinite;
@@ -27,76 +27,91 @@
       50% { opacity: 0; }
     }
 
-    /* Group animations */
+    /* Group visibility */
     .line-group {
       opacity: 0;
-      animation: show-group 12s infinite;
+      animation: show-group 16s infinite;
     }
-    
-    .line-group.line1 {
-      animation-delay: 0s;
-    }
-    .line-group.line2 {
-      animation-delay: 4s;
-    }
-    .line-group.line3 {
-      animation-delay: 8s;
-    }
+    .line-group.line1 { animation-delay: 0s; }
+    .line-group.line2 { animation-delay: 4s; }
+    .line-group.line3 { animation-delay: 8s; }
+    .line-group.line4 { animation-delay: 12s; }
     
     @keyframes show-group {
-      0%, 31.6% { opacity: 1; }
-      33.3%, 100% { opacity: 0; }
+      0%, 23.75% { opacity: 1; }
+      25%, 100% { opacity: 0; }
     }
 
-    /* Clip path and cursor animation */
-    .clip-rect {
-      animation: type-clip 12s infinite;
-    }
-    .clip-rect.c1 { animation-delay: 0s; }
-    .clip-rect.c2 { animation-delay: 4s; }
-    .clip-rect.c3 { animation-delay: 8s; }
+    /* Clip paths animations */
+    .clip-rect { animation-duration: 16s; animation-iteration-count: infinite; }
+    .clip-rect.c1 { animation-name: type-clip-c1; animation-delay: 0s; }
+    .clip-rect.c2 { animation-name: type-clip-c2; animation-delay: 4s; }
+    .clip-rect.c3 { animation-name: type-clip-c3; animation-delay: 8s; }
+    .clip-rect.c4 { animation-name: type-clip-c4; animation-delay: 12s; }
 
-    @keyframes type-clip {
+    @keyframes type-clip-c1 {
       0% { width: 0; }
-      12.5% { width: 620px; } /* type out from 0 to 1.5s (12.5% of 12s) */
-      25% { width: 620px; }   /* stay typed from 1.5s to 3s (25% of 12s) */
-      31.6% { width: 0; }    /* erase from 3s to 3.8s (31.6% of 12s) */
-      33.3%, 100% { width: 0; }
+      9.375% { width: 260px; }
+      18.75% { width: 260px; }
+      23.75% { width: 0; }
+      25%, 100% { width: 0; }
+    }
+    @keyframes type-clip-c2 {
+      0% { width: 0; }
+      9.375% { width: 190px; }
+      18.75% { width: 190px; }
+      23.75% { width: 0; }
+      25%, 100% { width: 0; }
+    }
+    @keyframes type-clip-c3 {
+      0% { width: 0; }
+      9.375% { width: 190px; }
+      18.75% { width: 190px; }
+      23.75% { width: 0; }
+      25%, 100% { width: 0; }
+    }
+    @keyframes type-clip-c4 {
+      0% { width: 0; }
+      9.375% { width: 250px; }
+      18.75% { width: 250px; }
+      23.75% { width: 0; }
+      25%, 100% { width: 0; }
     }
     
-    .cursor-rect {
-      animation: type-cursor-c1 12s infinite;
-    }
+    /* Cursor animations */
+    .cursor-rect { animation-duration: 16s; animation-iteration-count: infinite; }
     .cursor-rect.cur1 { animation-name: type-cursor-c1; animation-delay: 0s; }
     .cursor-rect.cur2 { animation-name: type-cursor-c2; animation-delay: 4s; }
     .cursor-rect.cur3 { animation-name: type-cursor-c3; animation-delay: 8s; }
+    .cursor-rect.cur4 { animation-name: type-cursor-c4; animation-delay: 12s; }
 
-    /* Cursor X movements matching each text line length */
-    /* Line 1 length: 44 chars * 12px = 528px (cursor x: 0 -> 535) */
     @keyframes type-cursor-c1 {
       0% { x: 0; }
-      12.5% { x: 535px; }
-      25% { x: 535px; }
-      31.6% { x: 0; }
-      33.3%, 100% { x: 0; }
+      9.375% { x: 255px; }
+      18.75% { x: 255px; }
+      23.75% { x: 0; }
+      25%, 100% { x: 0; }
     }
-    
-    /* Line 2 length: "HI, I AM KRISHIV AND I BUILD INTERACTIVE APPS" -> 45 chars * 12px = 540px (cursor x: 0 -> 545) */
     @keyframes type-cursor-c2 {
       0% { x: 0; }
-      12.5% { x: 545px; }
-      25% { x: 545px; }
-      31.6% { x: 0; }
-      33.3%, 100% { x: 0; }
+      9.375% { x: 185px; }
+      18.75% { x: 185px; }
+      23.75% { x: 0; }
+      25%, 100% { x: 0; }
     }
-
-    /* Line 3 length: "HI, I AM KRISHIV AND I BUILD WEIRD IDEAS" -> 40 chars * 12px = 480px (cursor x: 0 -> 485) */
     @keyframes type-cursor-c3 {
       0% { x: 0; }
-      12.5% { x: 485px; }
-      25% { x: 485px; }
-      31.6% { x: 0; }
-      33.3%, 100% { x: 0; }
+      9.375% { x: 185px; }
+      18.75% { x: 185px; }
+      23.75% { x: 0; }
+      25%, 100% { x: 0; }
+    }
+    @keyframes type-cursor-c4 {
+      0% { x: 0; }
+      9.375% { x: 245px; }
+      18.75% { x: 245px; }
+      23.75% { x: 0; }
+      25%, 100% { x: 0; }
     }
   </style>
   
@@ -114,24 +129,36 @@
     <clipPath id="clip3">
       <rect class="clip-rect c3" x="0" y="0" height="75" width="0" />
     </clipPath>
+    <clipPath id="clip4">
+      <rect class="clip-rect c4" x="0" y="0" height="75" width="0" />
+    </clipPath>
   </defs>
   <rect width="100%" height="100%" fill="url(#grid)" rx="8" />
 
-  <!-- Group 1 -->
-  <g class="line-group line1" transform="translate(30, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip1)">HI, I AM KRISHIV AND I BUILD AI APPLICATIONS</text>
+  <!-- Fixed Prefix -->
+  <text class="text" x="30" y="37.5">HI, I AM KRISHIV AND I BUILD </text>
+
+  <!-- Group 1: STUFF ON THE INTERNET -->
+  <g class="line-group line1" transform="translate(378, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip1)">STUFF ON THE INTERNET</text>
     <rect class="cursor cursor-rect cur1" y="-12" width="10" height="24" />
   </g>
 
-  <!-- Group 2 -->
-  <g class="line-group line2" transform="translate(30, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip2)">HI, I AM KRISHIV AND I BUILD INTERACTIVE APPS</text>
+  <!-- Group 2: AI APPLICATIONS -->
+  <g class="line-group line2" transform="translate(378, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip2)">AI APPLICATIONS</text>
     <rect class="cursor cursor-rect cur2" y="-12" width="10" height="24" />
   </g>
 
-  <!-- Group 3 -->
-  <g class="line-group line3" transform="translate(30, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip3)">HI, I AM KRISHIV AND I BUILD WEIRD IDEAS</text>
+  <!-- Group 3: GAMES ON ROBLOX -->
+  <g class="line-group line3" transform="translate(378, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip3)">GAMES ON ROBLOX</text>
     <rect class="cursor cursor-rect cur3" y="-12" width="10" height="24" />
+  </g>
+
+  <!-- Group 4: COOL WEB EXPERIENCES -->
+  <g class="line-group line4" transform="translate(378, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip4)">COOL WEB EXPERIENCES</text>
+    <rect class="cursor cursor-rect cur4" y="-12" width="10" height="24" />
   </g>
 </svg>
