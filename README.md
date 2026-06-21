@@ -1,6 +1,6 @@
 <!-- Cyber-Header -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krishiv-portfolio/master/social-preview.jpg" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
+<img src="https://krishiv-new-portfoilo.vercel.app/social-preview.jpg" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
 
 <br/><br/>
 
@@ -119,7 +119,7 @@
 
 <!-- Footer Info -->
 <div align="center">
-<img src="https://komarev.com/badge/web/Krylo-60.svg?color=00f2ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=Krylo-60&color=00f2ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
 <br/><br/>
 <sub>System active since 2024 · Designed with ⚡ by Krishiv Velocity & AI Agents</sub>
 </div>
