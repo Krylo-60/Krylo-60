@@ -103,6 +103,18 @@
 
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center">
+
+<h3>👾 System Activity Board (Contribution Snake)</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake.svg" width="100%" max-width="750px" style="border-radius: 8px;" />
+</picture>
+
+</td>
+</tr>
 </table>
 
 <br/>
