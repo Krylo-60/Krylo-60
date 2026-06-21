@@ -7,9 +7,9 @@
 <h1>🚀 Krishiv Velocity</h1>
 <h3>Grade 7 Master Coder | Full-Stack Creator | Gamer</h3>
 
-<!-- Typing Banner SVG -->
+<!-- Typing Banner SVG with Cache-Buster -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.2" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
 </a>
 
 <br/><br/>
