@@ -1,0 +1,34 @@
+name: Update Profile Grade and Age
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allows you to run it manually from the Actions tab on GitHub
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run update script
+        run: node update-readme.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
