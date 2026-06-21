@@ -26,42 +26,112 @@
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
+
+    /* Group animations */
+    .line-group {
+      opacity: 0;
+      animation: show-group 12s infinite;
+    }
+    
+    .line-group.line1 {
+      animation-delay: 0s;
+    }
+    .line-group.line2 {
+      animation-delay: 4s;
+    }
+    .line-group.line3 {
+      animation-delay: 8s;
+    }
+    
+    @keyframes show-group {
+      0%, 31.6% { opacity: 1; }
+      33.3%, 100% { opacity: 0; }
+    }
+
+    /* Clip path and cursor animation */
+    .clip-rect {
+      animation: type-clip 12s infinite;
+    }
+    .clip-rect.c1 { animation-delay: 0s; }
+    .clip-rect.c2 { animation-delay: 4s; }
+    .clip-rect.c3 { animation-delay: 8s; }
+
+    @keyframes type-clip {
+      0% { width: 0; }
+      12.5% { width: 620px; } /* type out from 0 to 1.5s (12.5% of 12s) */
+      25% { width: 620px; }   /* stay typed from 1.5s to 3s (25% of 12s) */
+      31.6% { width: 0; }    /* erase from 3s to 3.8s (31.6% of 12s) */
+      33.3%, 100% { width: 0; }
+    }
+    
+    .cursor-rect {
+      animation: type-cursor-c1 12s infinite;
+    }
+    .cursor-rect.cur1 { animation-name: type-cursor-c1; animation-delay: 0s; }
+    .cursor-rect.cur2 { animation-name: type-cursor-c2; animation-delay: 4s; }
+    .cursor-rect.cur3 { animation-name: type-cursor-c3; animation-delay: 8s; }
+
+    /* Cursor X movements matching each text line length */
+    /* Line 1 length: 44 chars * 12px = 528px (cursor x: 0 -> 535) */
+    @keyframes type-cursor-c1 {
+      0% { x: 0; }
+      12.5% { x: 535px; }
+      25% { x: 535px; }
+      31.6% { x: 0; }
+      33.3%, 100% { x: 0; }
+    }
+    
+    /* Line 2 length: "HI, I AM KRISHIV AND I BUILD INTERACTIVE APPS" -> 45 chars * 12px = 540px (cursor x: 0 -> 545) */
+    @keyframes type-cursor-c2 {
+      0% { x: 0; }
+      12.5% { x: 545px; }
+      25% { x: 545px; }
+      31.6% { x: 0; }
+      33.3%, 100% { x: 0; }
+    }
+
+    /* Line 3 length: "HI, I AM KRISHIV AND I BUILD WEIRD IDEAS" -> 40 chars * 12px = 480px (cursor x: 0 -> 485) */
+    @keyframes type-cursor-c3 {
+      0% { x: 0; }
+      12.5% { x: 485px; }
+      25% { x: 485px; }
+      31.6% { x: 0; }
+      33.3%, 100% { x: 0; }
+    }
   </style>
   
   <rect class="bg" width="100%" height="100%" rx="8"/>
-  
-  <!-- Subtle CRT lines / Grid background -->
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(0, 242, 255, 0.03)" stroke-width="1"/>
     </pattern>
-    <clipPath id="clip">
-      <rect x="0" y="0" height="75" width="0">
-        <animate 
-          attributeName="width" 
-          values="0; 580; 580; 0; 0" 
-          keyTimes="0; 0.5; 0.8; 0.95; 1"
-          dur="6s" 
-          repeatCount="indefinite" 
-        />
-      </rect>
+    <clipPath id="clip1">
+      <rect class="clip-rect c1" x="0" y="0" height="75" width="0" />
+    </clipPath>
+    <clipPath id="clip2">
+      <rect class="clip-rect c2" x="0" y="0" height="75" width="0" />
+    </clipPath>
+    <clipPath id="clip3">
+      <rect class="clip-rect c3" x="0" y="0" height="75" width="0" />
     </clipPath>
   </defs>
   <rect width="100%" height="100%" fill="url(#grid)" rx="8" />
-  
-  <!-- Typing text -->
-  <g transform="translate(30, 37.5)">
-    <text class="text" x="0" y="0" clip-path="url(#clip)">HI, I AM KRISHIV AND I BUILD AI APPLICATIONS</text>
-    
-    <!-- Moving cursor -->
-    <rect class="cursor" y="-12" width="10" height="24">
-      <animate 
-        attributeName="x" 
-        values="0; 535; 535; 0; 0" 
-        keyTimes="0; 0.5; 0.8; 0.95; 1"
-        dur="6s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
+
+  <!-- Group 1 -->
+  <g class="line-group line1" transform="translate(30, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip1)">HI, I AM KRISHIV AND I BUILD AI APPLICATIONS</text>
+    <rect class="cursor cursor-rect cur1" y="-12" width="10" height="24" />
+  </g>
+
+  <!-- Group 2 -->
+  <g class="line-group line2" transform="translate(30, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip2)">HI, I AM KRISHIV AND I BUILD INTERACTIVE APPS</text>
+    <rect class="cursor cursor-rect cur2" y="-12" width="10" height="24" />
+  </g>
+
+  <!-- Group 3 -->
+  <g class="line-group line3" transform="translate(30, 37.5)">
+    <text class="text" x="0" y="0" clip-path="url(#clip3)">HI, I AM KRISHIV AND I BUILD WEIRD IDEAS</text>
+    <rect class="cursor cursor-rect cur3" y="-12" width="10" height="24" />
   </g>
 </svg>
