@@ -1,17 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 75" width="800" height="75">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
   <style>
     .bg {
       fill: #050a14;
+      stroke: rgba(0, 242, 255, 0.2);
+      stroke-width: 1.5;
+    }
+    
+    .title-bar {
+      fill: #0a1124;
       stroke: rgba(0, 242, 255, 0.15);
       stroke-width: 1;
     }
     
+    .title-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #7bdcff;
+    }
+    
     .text {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 18px;
       fill: #00f2ff;
-      text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
+      text-shadow: 0 0 8px rgba(0, 242, 255, 0.5);
+    }
+    
+    .boot-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #39ff14;
+      text-shadow: 0 0 6px rgba(57, 255, 20, 0.4);
+    }
+    
+    .boot-prompt {
+      fill: #7bdcff;
+      text-shadow: 0 0 6px rgba(123, 220, 255, 0.4);
     }
 
     .cursor {
@@ -24,184 +50,276 @@
       50% { opacity: 0; }
     }
 
-    /* Group visibility animations in CSS (works fine outside defs) */
+    /* Boot sequence animations */
+    .boot-line-0 { animation: fade-boot-prompt 24s infinite; }
+    .boot-line-1 { animation: fade-boot-log1 24s infinite; }
+    .boot-line-2 { animation: fade-boot-log2 24s infinite; }
+    .boot-line-3 { animation: fade-boot-log3 24s infinite; }
+
+    @keyframes fade-boot-prompt {
+      0%, 9.17% { opacity: 1; }
+      10.42%, 100% { opacity: 0; }
+    }
+    @keyframes fade-boot-log1 {
+      0%, 2.08% { opacity: 0; }
+      2.5%, 9.17% { opacity: 1; }
+      10.42%, 100% { opacity: 0; }
+    }
+    @keyframes fade-boot-log2 {
+      0%, 4.17% { opacity: 0; }
+      4.58%, 9.17% { opacity: 1; }
+      10.42%, 100% { opacity: 0; }
+    }
+    @keyframes fade-boot-log3 {
+      0%, 6.25% { opacity: 0; }
+      6.67%, 9.17% { opacity: 1; }
+      10.42%, 100% { opacity: 0; }
+    }
+
+    /* Main CLI prompt animations */
+    .main-prompt-group {
+      animation: show-main-prompt 24s infinite;
+    }
+    @keyframes show-main-prompt {
+      0%, 9.17% { opacity: 0; }
+      10.42%, 100% { opacity: 1; }
+    }
+
+    /* Typing line group visibility animations */
     .line-group {
       opacity: 0;
-      animation: show-group 24s infinite;
+      animation-duration: 24s;
+      animation-iteration-count: infinite;
     }
-    .line-group.line1 { animation-delay: 0s; }
-    .line-group.line2 { animation-delay: 4s; }
-    .line-group.line3 { animation-delay: 8s; }
-    .line-group.line4 { animation-delay: 12s; }
-    .line-group.line5 { animation-delay: 16s; }
-    .line-group.line6 { animation-delay: 20s; }
     
-    @keyframes show-group {
-      0%, 15.833% { opacity: 1; }
-      16.666%, 100% { opacity: 0; }
+    .line-group.line1 { animation-name: show-line1; }
+    .line-group.line2 { animation-name: show-line2; }
+    .line-group.line3 { animation-name: show-line3; }
+    .line-group.line4 { animation-name: show-line4; }
+    .line-group.line5 { animation-name: show-line5; }
+    .line-group.line6 { animation-name: show-line6; }
+    
+    @keyframes show-line1 {
+      0%, 10.41% { opacity: 0; }
+      10.42%, 24.99% { opacity: 1; }
+      25.0%, 100% { opacity: 0; }
+    }
+    @keyframes show-line2 {
+      0%, 24.99% { opacity: 0; }
+      25.0%, 39.57% { opacity: 1; }
+      39.58%, 100% { opacity: 0; }
+    }
+    @keyframes show-line3 {
+      0%, 39.57% { opacity: 0; }
+      39.58%, 54.16% { opacity: 1; }
+      54.17%, 100% { opacity: 0; }
+    }
+    @keyframes show-line4 {
+      0%, 54.16% { opacity: 0; }
+      54.17%, 68.74% { opacity: 1; }
+      68.75%, 100% { opacity: 0; }
+    }
+    @keyframes show-line5 {
+      0%, 68.74% { opacity: 0; }
+      68.75%, 83.32% { opacity: 1; }
+      83.33%, 100% { opacity: 0; }
+    }
+    @keyframes show-line6 {
+      0%, 83.32% { opacity: 0; }
+      83.33%, 99.99% { opacity: 1; }
+      100% { opacity: 0; }
     }
   </style>
   
+  <!-- Terminal Window Shell -->
   <rect class="bg" width="100%" height="100%" rx="8"/>
+  <rect class="title-bar" width="100%" height="32" rx="8" clip-path="inset(0 0 16 0)"/>
+  
+  <!-- Separate Line -->
+  <line x1="0" y1="32" x2="800" y2="32" stroke="rgba(0, 242, 255, 0.2)" stroke-width="1"/>
+  
+  <!-- Window Control Buttons -->
+  <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="16" r="5" fill="#27c93f"/>
+  
+  <!-- Terminal Title -->
+  <text class="title-text" x="75" y="21">krishiv@velocity: ~/profile</text>
+  
+  <!-- Grid background decoration for body -->
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(0, 242, 255, 0.03)" stroke-width="1"/>
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(0, 242, 255, 0.02)" stroke-width="1"/>
     </pattern>
     
-    <!-- SMIL animated clip-rects - Fixed XML closing tags -->
+    <!-- SMIL animated clip-rects for typing effects -->
     <clipPath id="clip1">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 260; 260; 0; 0; 0" 
-          keyTimes="0; 0.0625; 0.125; 0.1583; 0.1667; 1"
+          values="0; 0; 260; 260; 0; 0; 0" 
+          keyTimes="0; 0.1042; 0.1250; 0.1750; 0.2167; 0.2500; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
     <clipPath id="clip2">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 0; 190; 190; 0; 0; 0" 
-          keyTimes="0; 0.1667; 0.2292; 0.2917; 0.3250; 0.3333; 1"
+          values="0; 0; 0; 190; 190; 0; 0; 0" 
+          keyTimes="0; 0.2500; 0.2583; 0.3083; 0.3625; 0.3875; 0.3958; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
     <clipPath id="clip3">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 0; 190; 190; 0; 0; 0" 
-          keyTimes="0; 0.3333; 0.3958; 0.4583; 0.4917; 0.5000; 1"
+          values="0; 0; 0; 190; 190; 0; 0; 0" 
+          keyTimes="0; 0.3958; 0.4042; 0.4542; 0.5083; 0.5333; 0.5417; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
     <clipPath id="clip4">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 0; 250; 250; 0; 0; 0" 
-          keyTimes="0; 0.5000; 0.5625; 0.6250; 0.6583; 0.6667; 1"
+          values="0; 0; 0; 250; 250; 0; 0; 0" 
+          keyTimes="0; 0.5417; 0.5500; 0.6000; 0.6542; 0.6792; 0.6875; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
     <clipPath id="clip5">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 0; 120; 120; 0; 0; 0" 
-          keyTimes="0; 0.6667; 0.7292; 0.7917; 0.8250; 0.8333; 1"
+          values="0; 0; 0; 120; 120; 0; 0; 0" 
+          keyTimes="0; 0.6875; 0.6958; 0.7458; 0.8000; 0.8250; 0.8333; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
     <clipPath id="clip6">
-      <rect x="0" y="0" height="75" width="0">
+      <rect x="0" y="0" height="120" width="0">
         <animate 
           attributeName="width" 
-          values="0; 0; 145; 145; 0; 0" 
-          keyTimes="0; 0.8333; 0.8958; 0.9583; 0.9917; 1"
+          values="0; 0; 0; 145; 145; 0; 0" 
+          keyTimes="0; 0.8333; 0.8417; 0.8917; 0.9667; 0.9917; 1"
           dur="24s" 
           repeatCount="indefinite" 
         />
       </rect>
     </clipPath>
   </defs>
-  <rect width="100%" height="100%" fill="url(#grid)" rx="8" />
+  <rect x="1" y="33" width="798" height="126" fill="url(#grid)" rx="0"/>
 
-  <!-- Fixed Prefix -->
-  <text class="text" x="30" y="44" xml:space="preserve">HI, I AM KRISHIV AND I BUILD </text>
-
-  <!-- Group 1: STUFF ON THE INTERNET -->
-  <g class="line-group line1" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip1)">STUFF ON THE INTERNET</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 255; 255; 0; 0; 0" 
-        keyTimes="0; 0.0625; 0.125; 0.1583; 0.1667; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
+  <!-- BOOT SEQUENCE LOGS (Fade out after 2.2s) -->
+  <g>
+    <text class="boot-text boot-line-0" x="25" y="60"><tspan class="boot-prompt">krishiv@velocity:~$</tspan> ./boot_system.sh</text>
+    <text class="boot-text boot-line-1" x="25" y="82">[ OK ] Initializing Aether Core v110...</text>
+    <text class="boot-text boot-line-2" x="25" y="104">[ OK ] Establishing Antigravity AI Sync...</text>
+    <text class="boot-text boot-line-3" x="25" y="126">[ OK ] Core Status: ONLINE · Ready.</text>
   </g>
 
-  <!-- Group 2: AI APPLICATIONS -->
-  <g class="line-group line2" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip2)">AI APPLICATIONS</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 0; 185; 185; 0; 0; 0" 
-        keyTimes="0; 0.1667; 0.2292; 0.2917; 0.3250; 0.3333; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
-  </g>
+  <!-- MAIN TERMINAL CONTENT (Fades in at 2.5s) -->
+  <g class="main-prompt-group">
+    <!-- Active Prompt Command -->
+    <text class="boot-text boot-prompt" x="25" y="60">krishiv@velocity:~$ <tspan fill="#ffffff">./start_intro.sh</tspan></text>
+    
+    <!-- Fixed Prefix -->
+    <text class="text" x="25" y="98" xml:space="preserve">HI, I AM KRISHIV AND I BUILD </text>
 
-  <!-- Group 3: GAMES ON ROBLOX -->
-  <g class="line-group line3" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip3)">GAMES ON ROBLOX</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 0; 185; 185; 0; 0; 0" 
-        keyTimes="0; 0.3333; 0.3958; 0.4583; 0.4917; 0.5000; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
-  </g>
+    <!-- Group 1: STUFF ON THE INTERNET -->
+    <g class="line-group line1" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip1)">STUFF ON THE INTERNET</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 255; 255; 0; 0; 0" 
+          keyTimes="0; 0.1042; 0.1250; 0.1750; 0.2167; 0.2500; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
 
-  <!-- Group 4: COOL WEB EXPERIENCES -->
-  <g class="line-group line4" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip4)">COOL WEB EXPERIENCES</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 0; 245; 245; 0; 0; 0" 
-        keyTimes="0; 0.5000; 0.5625; 0.6250; 0.6583; 0.6667; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
-  </g>
+    <!-- Group 2: AI APPLICATIONS -->
+    <g class="line-group line2" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip2)">AI APPLICATIONS</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 0; 185; 185; 0; 0; 0" 
+          keyTimes="0; 0.2500; 0.2583; 0.3083; 0.3625; 0.3875; 0.3958; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
 
-  <!-- Group 5: VIBE CODE -->
-  <g class="line-group line5" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip5)">VIBE CODE</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 0; 115; 115; 0; 0; 0" 
-        keyTimes="0; 0.6667; 0.7292; 0.7917; 0.8250; 0.8333; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
-  </g>
+    <!-- Group 3: GAMES ON ROBLOX -->
+    <g class="line-group line3" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip3)">GAMES ON ROBLOX</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 0; 185; 185; 0; 0; 0" 
+          keyTimes="0; 0.3958; 0.4042; 0.4542; 0.5083; 0.5333; 0.5417; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
 
-  <!-- Group 6: VIBE CODING -->
-  <g class="line-group line6" transform="translate(378, 0)">
-    <text class="text" x="0" y="44" xml:space="preserve" clip-path="url(#clip6)">VIBE CODING</text>
-    <rect class="cursor" y="26" width="10" height="24" x="0">
-      <animate 
-        attributeName="x" 
-        values="0; 0; 140; 140; 0; 0" 
-        keyTimes="0; 0.8333; 0.8958; 0.9583; 0.9917; 1"
-        dur="24s" 
-        repeatCount="indefinite" 
-      />
-    </rect>
+    <!-- Group 4: COOL WEB EXPERIENCES -->
+    <g class="line-group line4" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip4)">COOL WEB EXPERIENCES</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 0; 245; 245; 0; 0; 0" 
+          keyTimes="0; 0.5417; 0.5500; 0.6000; 0.6542; 0.6792; 0.6875; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
+
+    <!-- Group 5: VIBE CODE -->
+    <g class="line-group line5" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip5)">VIBE CODE</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 0; 115; 115; 0; 0; 0" 
+          keyTimes="0; 0.6875; 0.6958; 0.7458; 0.8000; 0.8250; 0.8333; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
+
+    <!-- Group 6: VIBE CODING -->
+    <g class="line-group line6" transform="translate(356, 0)">
+      <text class="text" x="0" y="98" xml:space="preserve" clip-path="url(#clip6)">VIBE CODING</text>
+      <rect class="cursor" y="80" width="10" height="22" x="0">
+        <animate 
+          attributeName="x" 
+          values="0; 0; 0; 140; 140; 0; 0" 
+          keyTimes="0; 0.8333; 0.8417; 0.8917; 0.9667; 0.9917; 1"
+          dur="24s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </g>
   </g>
 </svg>

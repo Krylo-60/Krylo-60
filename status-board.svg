@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" width="360" height="210">
+  <style>
+    .bg {
+      fill: #050a14;
+      stroke: rgba(0, 242, 255, 0.25);
+      stroke-width: 1.5;
+    }
+    
+    .grid {
+      fill: url(#grid-pattern);
+    }
+    
+    .header {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+      font-weight: 700;
+      fill: #00f2ff;
+      text-shadow: 0 0 6px rgba(0, 242, 255, 0.5);
+      letter-spacing: 1px;
+    }
+    
+    .label {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #7bdcff;
+    }
+    
+    .val {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #ffffff;
+    }
+    
+    .online-glow {
+      fill: #39ff14;
+      animation: pulse 1.5s infinite alternate;
+    }
+    
+    @keyframes pulse {
+      0% { opacity: 0.4; r: 4; }
+      100% { opacity: 1; r: 6; }
+    }
+    
+    .scanline {
+      stroke: rgba(0, 242, 255, 0.15);
+      stroke-width: 1.5;
+      animation: scan 4s linear infinite;
+    }
+    
+    @keyframes scan {
+      0% { y1: 5; y2: 5; }
+      100% { y1: 205; y2: 205; }
+    }
+  </style>
+  
+  <defs>
+    <pattern id="grid-pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+      <path d="M 15 0 L 0 0 0 15" fill="none" stroke="rgba(0, 242, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+    
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#005f73" />
+      <stop offset="100%" stop-color="#00f2ff" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Box Shell -->
+  <rect class="bg" width="100%" height="100%" rx="8"/>
+  <rect class="grid" width="100%" height="100%" rx="8"/>
+  
+  <!-- Header -->
+  <text class="header" x="20" y="32">⚡ TELEMETRY MONITOR</text>
+  <line x1="20" y1="42" x2="340" y2="42" stroke="rgba(0, 242, 255, 0.25)" stroke-width="1"/>
+  
+  <!-- Stats Items -->
+  <!-- Aether Core status -->
+  <text class="label" x="25" y="68">AETHER CORE:</text>
+  <text class="val" x="140" y="68">ONLINE</text>
+  <circle class="online-glow" cx="205" cy="64" r="5"/>
+  
+  <!-- AI Sync Level -->
+  <text class="label" x="25" y="93">AI AGENT SYNC:</text>
+  <text class="val" x="140" y="93">100% (CONNECTED)</text>
+  
+  <!-- Dev Mode -->
+  <text class="label" x="25" y="118">VIBE STATUS:</text>
+  <text class="val" x="140" y="118">HYPER-DRIVE</text>
+  
+  <!-- Project Count -->
+  <text class="label" x="25" y="143">SYSTEM DIRECTIVE:</text>
+  <text class="val" x="140" y="143">BUILD &amp; INNOVATE</text>
+  
+  <!-- Load Progress Bar -->
+  <text class="label" x="25" y="172">LOAD INTEGRITY:</text>
+  <rect x="140" y="162" width="190" height="12" fill="#07162b" rx="3" stroke="rgba(0, 242, 255, 0.1)"/>
+  <rect x="140" y="162" width="190" height="12" fill="url(#bar-grad)" rx="3" filter="url(#glow)">
+    <animate attributeName="width" values="0; 120; 190; 190" keyTimes="0; 0.3; 0.8; 1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Scanline Animation -->
+  <line class="scanline" x1="5" y1="5" x2="355" y2="5"/>
+</svg>

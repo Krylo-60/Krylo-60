@@ -7,9 +7,9 @@
 <h1>🚀 Krishiv Velocity</h1>
 <h3>Grade 7 Master Coder | Full-Stack Creator | Gamer</h3>
 
-<!-- Typing Banner SVG with Cache-Buster v1.4 -->
+<!-- Typing Banner SVG with Cache-Buster v1.5 -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.4" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.5" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
 </a>
 
 <br/><br/>
@@ -34,8 +34,8 @@
 <!-- Bento Layout Columns -->
 <table>
 <tr>
-<!-- Left Column (Bio & Weapons) -->
-<td width="55%" valign="top">
+<!-- Left Column (Bio, Status Board, Tech Stack) -->
+<td width="50%" valign="top">
 
 <h3>⚡ System Profile</h3>
 <ul>
@@ -45,39 +45,20 @@
 <li><b>Current Objective:</b> Expanding the <b>Krishiv Velocity</b> digital universe.</li>
 </ul>
 
-<h3>🛠️ Weapons of Choice (Tech Stack)</h3>
+<br/>
 
-<b>Core Languages & Frontend (The Ultimate Flex)</b><br/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node"/>
+<!-- Custom System Status Board -->
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/status-board.svg?v=1.0" alt="System Status Board" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
 
 <br/><br/>
 
-<b>Cloud & Database Sync</b><br/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>
-
-<br/><br/>
-
-<b>DevOps, QA & Tools</b><br/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/Rojo-E00000?style=flat-square&logo=roblox&logoColor=white" alt="Rojo/Roblox"/>
-
-<h3>🎮 Gaming Console</h3>
-<img src="https://img.shields.io/badge/Asphalt_9-00f2ff?style=flat-square&logo=gameloft&logoColor=white" alt="Asphalt 9"/>
-<img src="https://img.shields.io/badge/Brawl_Stars-6bf0c0?style=flat-square&logo=supercell&logoColor=black" alt="Brawl Stars"/>
-<img src="https://img.shields.io/badge/Valorant-ff4655?style=flat-square&logo=valorant&logoColor=white" alt="Valorant"/>
-<img src="https://img.shields.io/badge/Clash_Royale-ffb900?style=flat-square&logo=supercell&logoColor=white" alt="Clash Royale"/>
-<img src="https://img.shields.io/badge/BGMI-7000ff?style=flat-square&logo=pubg&logoColor=white" alt="BGMI"/>
+<!-- Custom Tech Stack Grid -->
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
 
 </td>
 
 <!-- Right Column (Stats & Projects) -->
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
 <h3>🚀 Featured Projects</h3>
 <ul>
@@ -98,6 +79,15 @@
 <br/><i>A massive suite of 100+ public pages and utility mini-apps.</i>
 </li>
 </ul>
+
+<h3>🎮 Gaming Console</h3>
+<img src="https://img.shields.io/badge/Asphalt_9-00f2ff?style=flat-square&logo=gameloft&logoColor=white" alt="Asphalt 9"/>
+<img src="https://img.shields.io/badge/Brawl_Stars-6bf0c0?style=flat-square&logo=supercell&logoColor=black" alt="Brawl Stars"/>
+<img src="https://img.shields.io/badge/Valorant-ff4655?style=flat-square&logo=valorant&logoColor=white" alt="Valorant"/>
+<img src="https://img.shields.io/badge/Clash_Royale-ffb900?style=flat-square&logo=supercell&logoColor=white" alt="Clash Royale"/>
+<img src="https://img.shields.io/badge/BGMI-7000ff?style=flat-square&logo=pubg&logoColor=white" alt="BGMI"/>
+
+<br/><br/>
 
 <h3>📊 GitHub Telemetry</h3>
 <!-- Custom themed stats matching portfolio colors -->
