@@ -1,6 +1,6 @@
 <!-- Cyber-Header -->
 <div align="center">
-<img src="https://krishiv-new-portfoilo.vercel.app/social-preview.jpg" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
+<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/banner.png?v=1.0" alt="Krishiv Velocity Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,242,255,0.25);" />
 
 <br/><br/>
 
