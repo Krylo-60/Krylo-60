@@ -2,9 +2,9 @@ name: Update Profile Grade and Age
 
 on:
   schedule:
-    # Runs at 00:00 UTC on the 1st of every month
-    - cron: '0 0 1 * *'
-  workflow_dispatch: # Allows you to run it manually from the Actions tab on GitHub
+    # Runs at 00:00 UTC every single day to catch your birthday exactly on July 24th
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-readme:
@@ -27,7 +27,7 @@ jobs:
           git config --global user.email "actions@github.com"
           git add README.md
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m)"
+            git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m-%d)"
             git push
           else
             echo "No changes to commit"

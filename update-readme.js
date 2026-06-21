@@ -1,42 +1,46 @@
 const fs = require('fs');
 
-const currentYear = new Date().getFullYear();
-const currentMonth = new Date().getMonth(); // 0-indexed: 0 = Jan, 5 = June, etc.
+const today = new Date();
+const currentYear = today.getFullYear();
+const currentMonth = today.getMonth(); // 0-indexed: 0 = Jan, 5 = Jun, 7 = Aug
 
-// Academic Grade calculation:
-// In 2026, you are in Grade 7.
-// In 2025, you were in Grade 6.
-// Grade transition usually happens around June (Month 5).
+// Precise Age calculation based on birthday: July 24, 2014
+const birthDate = new Date('2014-07-24');
+let age = currentYear - birthDate.getFullYear();
+const monthDiff = today.getMonth() - birthDate.getMonth();
+const dayDiff = today.getDate() - birthDate.getDate();
+
+// If we haven't reached the birthday month, or if we are in the birthday month but haven't reached the birthday day:
+if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+  age--;
+}
+
+// School Grade calculation:
+// Transition to the new grade happens in June (month index 5)
+// In June 2026, you started Grade 7 (2026 - 2019 = 7)
+// Prior to June 2026, you were in Grade 6
 let grade = currentYear - 2019;
 if (currentMonth < 5) {
-  grade -= 1; // Prior to June, you are in the previous year's grade
+  grade--;
 }
 
-// Age calculation:
-// In 2025, you were 11.
-// In 2026, you turn 12.
-let age = currentYear - 2014;
-if (currentMonth < 5) {
-  age -= 1;
-}
-
-// Read the README.md content
+// Read and update the README.md file
 let readmePath = 'README.md';
 if (!fs.existsSync(readmePath)) {
-  readmePath = '../README.md'; // Fallback if run from subfolder
+  readmePath = '../README.md'; // Fallback if run from a subfolder
 }
 
 if (fs.existsSync(readmePath)) {
   let readme = fs.readFileSync(readmePath, 'utf8');
+  let originalReadme = readme;
 
   // Replace occurrences of Grade and Age
-  let originalReadme = readme;
   readme = readme.replace(/Grade \d+ Master Coder/g, `Grade ${grade} Master Coder`);
   readme = readme.replace(/\d+-year-old student developer/g, `${age}-year-old student developer`);
 
   if (readme !== originalReadme) {
     fs.writeFileSync(readmePath, readme);
-    console.log(`[✓] Automatically updated README.md: Grade ${grade}, Age ${age} for Year ${currentYear}.`);
+    console.log(`[✓] Updated README.md: Grade ${grade}, Age ${age} (Birthday: July 24, 2014).`);
   } else {
     console.log(`[✓] README.md is already up-to-date: Grade ${grade}, Age ${age}.`);
   }
