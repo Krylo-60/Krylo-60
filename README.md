@@ -6,7 +6,7 @@
 
 <!-- Typing Banner SVG with Cache-Buster v1.5 -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/typing.svg?v=1.5" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
+<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.5" alt="HI, I AM KRISHIV AND I BUILD " width="100%" max-width="700px" style="border-radius: 8px;" />
 </a>
 
 <br/><br/>
@@ -45,12 +45,12 @@
 <br/>
 
 <!-- Custom System Status Board -->
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/status-board.svg?v=1.0" alt="System Status Board" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://github-profile-readme-vert.vercel.app/status-board.svg?v=1.0" alt="System Status Board" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
 
 <br/><br/>
 
 <!-- Custom Tech Stack Grid -->
-<img src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/main/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://github-profile-readme-vert.vercel.app/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
 
 <br/><br/>
 
