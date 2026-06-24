@@ -1,19 +1,26 @@
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v2.0             -->
+<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v3.0 · ULTIMATE EDITION -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=200&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=52&fontAlignY=40&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
 
-<!-- Typing Banner SVG -->
+<!-- Dynamic Typing Subtitle -->
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&multiline=false&width=620&height=40&lines=⚡+Full-Stack+Web+Developer;🧠+AI-Powered+Builder;🎮+Game+Creator+%26+Content+Maker;🚀+100%2B+Projects+Deployed;🔥+Building+Since+2024" alt="Typing SVG"/>
+</a>
+
+<br/>
+
+<!-- Typing Banner SVG Terminal -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRISHIV AND I BUILD" width="100%" max-width="700px" style="border-radius: 8px;" />
+<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRISHIV AND I BUILD" width="100%" />
 </a>
 
 <br/><br/>
 
-<!-- Social Badges Row 1 -->
+<!-- Social Badges -->
 <p>
 <a href="https://krishiv-new-portfoilo.vercel.app">
   <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Krishiv%20PB-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
@@ -38,7 +45,23 @@
 <p><i>⚡ "Built to inspire. Built to dominate. Built by a Grade 7 Master Coder." ⚡</i></p>
 </div>
 
----
+<!-- ══════════════════════════════════════════ -->
+<!-- TROPHY SHELF                              -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 🏆 GitHub Trophy Shelf
+
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+<img src="https://github-profile-trophy.vercel.app/?username=Krylo-60&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/>
+</a>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
+
+</div>
 
 <!-- ══════════════════════════════════════════ -->
 <!-- BENTO LAYOUT — Main Content               -->
@@ -116,11 +139,31 @@
 </tr>
 </table>
 
----
+<!-- ══════════════════════════════════════════ -->
+<!-- TECH ARSENAL — Skill Icons                -->
+<!-- ══════════════════════════════════════════ -->
 
 <div align="center">
 
-### 🏆 Achievement Badges
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 🛠️ Tech Arsenal
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,firebase,vercel,git,github,vscode,python&perline=10&theme=dark" alt="Tech Stack"/>
+</a>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
+
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<!-- ACHIEVEMENT BADGES                        -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+### 🏅 Achievement Badges
 
 <img src="https://img.shields.io/badge/🚀%20Master%20Coder-Grade%207-00f2ff?style=for-the-badge&labelColor=050a14" alt="Master Coder"/>
 <img src="https://img.shields.io/badge/⚡%20AI%20Builder-Gemini%20%26%20Antigravity-7000ff?style=for-the-badge&labelColor=050a14" alt="AI Builder"/>
@@ -131,9 +174,13 @@
 
 </div>
 
----
+<!-- ══════════════════════════════════════════ -->
+<!-- GIT ACTIVITY GRAPH                        -->
+<!-- ══════════════════════════════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
 
 ### 📈 Git Activity Telemetry (31-Day Window)
 
@@ -143,9 +190,13 @@
 
 </div>
 
----
+<!-- ══════════════════════════════════════════ -->
+<!-- CONTRIBUTION SNAKE                        -->
+<!-- ══════════════════════════════════════════ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
 
 ### 👾 Contribution Matrix Snake
 
@@ -157,11 +208,31 @@
 
 </div>
 
+<!-- ══════════════════════════════════════════ -->
+<!-- 3D CONTRIBUTION CALENDAR                  -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 🧊 3D Contribution Calendar
+
+<a href="https://github.com/yoshi389111/github-profile-3d-contrib">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</picture>
+</a>
+
+</div>
+
 <br/>
 
-<!-- ══════════════════════════ -->
-<!-- ANIMATED WAVE FOOTER       -->
-<!-- ══════════════════════════ -->
+<!-- ══════════════════════════════════════════ -->
+<!-- ANIMATED WAVE FOOTER                      -->
+<!-- ══════════════════════════════════════════ -->
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:00f2ff,100:050a14&height=120&section=footer&text=System%20Online%20%E2%9A%A1%202024&fontColor=ffffff&fontSize=18&fontAlignY=65&animation=fadeIn" width="100%" alt="Footer Wave"/>
 <br/>

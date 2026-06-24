@@ -1,0 +1,31 @@
+name: Generate 3D Contribution Calendar
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # Runs daily at 1 AM UTC
+  workflow_dispatch: # Allows manual runs
+
+jobs:
+  contrib-3d:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add -A profile-3d-contrib/
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore: auto-generate 3D contribution calendar"
+            git push
+          else
+            echo "No changes to commit"
+          fi
