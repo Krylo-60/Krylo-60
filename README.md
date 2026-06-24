@@ -2,11 +2,6 @@
 <!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v4.0 · GODLY EDITION   -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-<!-- Custom Cyberpunk Banner -->
-<div align="center">
-<img src="./banner.png" alt="Krishiv PB Cyberpunk Banner" width="100%"/>
-</div>
-
 <!-- Animated Wave Header -->
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=120&section=header&text=&fontSize=1" width="100%"/>
