@@ -24,6 +24,9 @@
 <a href="https://discord.gg/QZ3KfPsH4Y">
   <img src="https://img.shields.io/badge/💬%20Discord-Nexus%20Server-7000ff?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=050a14" alt="Discord"/>
 </a>
+<a href="https://github.com/krylobloxyt-60">
+  <img src="https://img.shields.io/badge/🔗%20Alt%20Account-krylobloxyt--60-7000ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050a14" alt="Alt Account"/>
+</a>
 </p>
 
 <!-- Profile Views & Stars -->
