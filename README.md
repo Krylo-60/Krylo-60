@@ -4,7 +4,7 @@
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=120&section=header&text=&fontSize=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://git.io/typing-svg">
