@@ -144,7 +144,7 @@
   <circle cx="52" cy="16" r="5" fill="#27c93f"/>
   
   <!-- Terminal Title -->
-  <text class="title-text" x="75" y="21">krishiv@velocity: ~/profile</text>
+  <text class="title-text" x="75" y="21">krishiv@pb: ~/profile</text>
   
   <!-- Grid background decoration for body -->
   <defs>
@@ -224,7 +224,7 @@
 
   <!-- BOOT SEQUENCE LOGS (Fade out after 2.2s) -->
   <g>
-    <text class="boot-text boot-line-0" x="25" y="60"><tspan class="boot-prompt">krishiv@velocity:~$</tspan> ./boot_system.sh</text>
+    <text class="boot-text boot-line-0" x="25" y="60"><tspan class="boot-prompt">krishiv@pb:~$</tspan> ./boot_system.sh</text>
     <text class="boot-text boot-line-1" x="25" y="82">[ OK ] Initializing Aether Core v110...</text>
     <text class="boot-text boot-line-2" x="25" y="104">[ OK ] Establishing Antigravity AI Sync...</text>
     <text class="boot-text boot-line-3" x="25" y="126">[ OK ] Core Status: ONLINE · Ready.</text>
@@ -233,7 +233,7 @@
   <!-- MAIN TERMINAL CONTENT (Fades in at 2.5s) -->
   <g class="main-prompt-group">
     <!-- Active Prompt Command -->
-    <text class="boot-text boot-prompt" x="25" y="60">krishiv@velocity:~$ <tspan fill="#ffffff">./start_intro.sh</tspan></text>
+    <text class="boot-text boot-prompt" x="25" y="60">krishiv@pb:~$ <tspan fill="#ffffff">./start_intro.sh</tspan></text>
     
     <!-- Fixed Prefix -->
     <text class="text" x="25" y="98" xml:space="preserve">HI, I AM KRISHIV AND I BUILD </text>

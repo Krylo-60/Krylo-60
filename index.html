@@ -127,6 +127,49 @@
           </div>
         </article>
 
+        <!-- Cyber Music Player Card -->
+        <article class="card music-player-card">
+          <h2 class="card-title">🎵 Now Playing</h2>
+          <div class="player-container">
+            <audio id="bg-audio" src="Architect_of_Triumph.mp3" preload="auto"></audio>
+            <div class="track-info">
+              <div class="track-name">Architect of Triumph</div>
+              <div class="track-vibe">System Soundtrack</div>
+            </div>
+            
+            <!-- Controls & Progress -->
+            <div class="player-controls-row">
+              <button id="play-pause-btn" class="ctrl-btn" aria-label="Play or Pause soundtrack">
+                <!-- Play Icon SVG -->
+                <svg id="play-icon" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="currentColor" d="M8 5v14l11-7z"/>
+                </svg>
+                <!-- Pause Icon SVG -->
+                <svg id="pause-icon" viewBox="0 0 24 24" width="24" height="24" style="display: none;">
+                  <path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                </svg>
+              </button>
+              
+              <div class="progress-and-time">
+                <div class="progress-container" id="progress-container">
+                  <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="time-display-container">
+                  <span class="time-display" id="time-display">0:00</span>
+                  <!-- Animated Equalizer Bars -->
+                  <div class="visualizer" id="equalizer">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
         <!-- GitHub Telemetry Stats Cards -->
         <article class="card center-content">
           <h2 class="card-title select-left">📊 GitHub Stats Telemetry</h2>
@@ -175,5 +218,61 @@
 
   </main>
 
+  <script>
+    const audio = document.getElementById('bg-audio');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const progressBar = document.getElementById('progress-bar');
+    const progressContainer = document.getElementById('progress-container');
+    const timeDisplay = document.getElementById('time-display');
+    const equalizer = document.getElementById('equalizer');
+
+    playPauseBtn.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play().catch(err => {
+          console.error("Audio playback failed:", err);
+        });
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'block';
+        equalizer.classList.add('playing');
+      } else {
+        audio.pause();
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        equalizer.classList.remove('playing');
+      }
+    });
+
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) {
+        const percentage = (audio.currentTime / audio.duration) * 100;
+        progressBar.style.width = percentage + '%';
+      }
+      
+      const minutes = Math.floor(audio.currentTime / 60);
+      const seconds = Math.floor(audio.currentTime % 60);
+      const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+      timeDisplay.textContent = `${minutes}:${formattedSeconds}`;
+    });
+
+    progressContainer.addEventListener('click', (e) => {
+      const rect = progressContainer.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const width = rect.width;
+      const duration = audio.duration;
+      if (duration) {
+        audio.currentTime = (clickX / width) * duration;
+      }
+    });
+
+    audio.addEventListener('ended', () => {
+      playIcon.style.display = 'block';
+      pauseIcon.style.display = 'none';
+      equalizer.classList.remove('playing');
+      progressBar.style.width = '0%';
+      timeDisplay.textContent = '0:00';
+    });
+  </script>
 </body>
 </html>

@@ -1,14 +1,19 @@
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v3.0 · ULTIMATE EDITION -->
+<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v4.0 · GODLY EDITION   -->
 <!-- ════════════════════════════════════════════════════════════════ -->
+
+<!-- Custom Cyberpunk Banner -->
+<div align="center">
+<img src="./banner.png" alt="Krishiv PB Cyberpunk Banner" width="100%"/>
+</div>
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=120&section=header&text=&fontSize=1" width="100%"/>
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&width=620&height=40&lines=Full-Stack+Web+Developer;AI-Powered+Builder;Game+Creator+%26+Content+Maker;100%2B+Projects+Deployed;Building+Since+2024" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&width=700&height=45&lines=Full-Stack+Web+Developer;AI-Powered+Builder;Game+Creator+%26+Content+Maker;100%2B+Projects+Deployed;Building+Since+2024;The+Youngest+Master+Coder" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -36,10 +41,11 @@
 </a>
 </p>
 
-<!-- Profile Views & Stars -->
+<!-- Profile Views & Stars & Followers -->
 <p>
 <img src="https://komarev.com/ghpvc/?username=Krylo-60&color=00f2ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 <img src="https://img.shields.io/github/stars/Krylo-60?style=for-the-badge&color=00f2ff&labelColor=050a14&label=STARS+EARNED" alt="Stars"/>
+<img src="https://img.shields.io/github/followers/Krylo-60?style=for-the-badge&color=7000ff&labelColor=050a14&label=FOLLOWERS" alt="Followers"/>
 </p>
 
 <p><i>⚡ "Built to inspire. Built to dominate. Built by a Grade 7 Master Coder." ⚡</i></p>
@@ -64,8 +70,34 @@
 </div>
 
 <!-- ══════════════════════════════════════════ -->
+<!-- CURRENTLY SECTION                         -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+### ⚡ Currently
+
+</div>
+
+| | |
+|---|---|
+| 🔭 | **Working on:** [Krishiv PB Portfolio](https://krishiv-new-portfoilo.vercel.app) — 100+ apps & tools |
+| 🌱 | **Learning:** Advanced JavaScript, React, AI integrations |
+| 🎯 | **2025 Goal:** Hit 500 contributions & launch 10 new projects |
+| 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant |
+| 💬 | **Ask me about:** HTML, CSS, JS, Firebase, Vercel, AI tools |
+| ⚡ | **Fun fact:** I started coding at age 10 and built 100+ web apps in one year! |
+
+<!-- ══════════════════════════════════════════ -->
 <!-- BENTO LAYOUT — Main Content               -->
 <!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+</div>
+
 <table>
 <tr>
 <!-- Left Column: Bio + Tech Stack + Status -->
@@ -140,12 +172,31 @@
 </table>
 
 <!-- ══════════════════════════════════════════ -->
-<!-- TECH ARSENAL — Skill Icons                -->
+<!-- PINNED REPO CARDS                         -->
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 📌 Pinned Repositories
+
+<a href="https://github.com/Krylo-60/Krylo-60">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krylo-60 Repo" width="370"/>
+</a>
+<a href="https://github.com/Krylo-60/krishiv-new-portfoilo">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=krishiv-new-portfoilo&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Portfolio Repo" width="370"/>
+</a>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
+
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<!-- TECH ARSENAL — Skill Icons                -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
 
 ### 🛠️ Tech Arsenal
 
@@ -153,7 +204,7 @@
 <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,firebase,vercel,git,github,vscode,python&perline=10&theme=dark" alt="Tech Stack"/>
 </a>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
 
 </div>
 
@@ -171,6 +222,23 @@
 <img src="https://img.shields.io/badge/🎮%20Gamer-Level%20MAX-ff0055?style=for-the-badge&labelColor=050a14" alt="Gamer"/>
 <img src="https://img.shields.io/badge/🔥%20Building-Since%202024-ffb900?style=for-the-badge&labelColor=050a14" alt="Since 2024"/>
 <img src="https://img.shields.io/badge/💡%20Projects-100%2B%20Pages-6bf0c0?style=for-the-badge&labelColor=050a14" alt="100+ Projects"/>
+<img src="https://img.shields.io/badge/👑%20Status-GODLY%20KING-ff0055?style=for-the-badge&labelColor=050a14" alt="Godly King"/>
+
+</div>
+
+<!-- ══════════════════════════════════════════ -->
+<!-- RANDOM DEV QUOTE                          -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 💭 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="520"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
 
 </div>
 
@@ -179,8 +247,6 @@
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
 
 ### 📈 Git Activity Telemetry (31-Day Window)
 
@@ -231,10 +297,31 @@
 <br/>
 
 <!-- ══════════════════════════════════════════ -->
+<!-- SYSTEM SOUNDTRACK                          -->
+<!-- ══════════════════════════════════════════ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050a14,100:0a1929&height=1&section=header" width="100%"/>
+
+### 🎵 Now Vibing: System Soundtrack
+
+<a href="https://github-profile-readme-vert.vercel.app/">
+  <img src="https://img.shields.io/badge/🎵%20Now%20Playing-Architect%20of%20Triumph-00f2ff?style=for-the-badge&logo=music&logoColor=050a14&labelColor=050a14" alt="Architect of Triumph Soundtrack"/>
+</a>
+
+<p><i>Click the badge to play the theme song on the live dashboard!</i></p>
+
+</div>
+
+<br/>
+
+<!-- ══════════════════════════════════════════ -->
 <!-- ANIMATED WAVE FOOTER                      -->
 <!-- ══════════════════════════════════════════ -->
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:00f2ff,100:050a14&height=120&section=footer&text=System%20Online%20%E2%9A%A1%202024&fontColor=ffffff&fontSize=18&fontAlignY=65&animation=fadeIn" width="100%" alt="Footer Wave"/>
 <br/>
 <sub>🌐 System active since 2024 · Designed with ⚡ by <b>Krishiv PB</b> &amp; AI Agents · Built different 🚀</sub>
+<br/><br/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:00f2ff,100:7000ff&height=40&text=👑%20GODLY%20KING%20README%20👑&fontSize=14&fontColor=7bdcff&animation=scaleIn" alt="Godly King"/>
 </div>
