@@ -8,7 +8,7 @@
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&multiline=false&width=620&height=40&lines=⚡+Full-Stack+Web+Developer;🧠+AI-Powered+Builder;🎮+Game+Creator+%26+Content+Maker;🚀+100%2B+Projects+Deployed;🔥+Building+Since+2024" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&width=620&height=40&lines=Full-Stack+Web+Developer;AI-Powered+Builder;Game+Creator+%26+Content+Maker;100%2B+Projects+Deployed;Building+Since+2024" alt="Typing SVG"/>
 </a>
 
 <br/>
