@@ -111,47 +111,48 @@
 
 </td>
 </tr>
-<tr>
-<td colspan="2" align="center">
+</table>
 
-<!-- ══════════════════════════ -->
-<!-- TROPHY CABINET             -->
-<!-- ══════════════════════════ -->
-<h3>🏆 Achievement Badges</h3>
-<p>
+---
+
+<div align="center">
+
+### 🏆 Achievement Badges
+
 <img src="https://img.shields.io/badge/🚀%20Master%20Coder-Grade%207-00f2ff?style=for-the-badge&labelColor=050a14" alt="Master Coder"/>
 <img src="https://img.shields.io/badge/⚡%20AI%20Builder-Gemini%20%26%20Antigravity-7000ff?style=for-the-badge&labelColor=050a14" alt="AI Builder"/>
 <img src="https://img.shields.io/badge/🌐%20Full--Stack-HTML%20%7C%20CSS%20%7C%20JS-00f2ff?style=for-the-badge&labelColor=050a14" alt="Full Stack"/>
 <img src="https://img.shields.io/badge/🎮%20Gamer-Level%20MAX-ff0055?style=for-the-badge&labelColor=050a14" alt="Gamer"/>
 <img src="https://img.shields.io/badge/🔥%20Building-Since%202024-ffb900?style=for-the-badge&labelColor=050a14" alt="Since 2024"/>
 <img src="https://img.shields.io/badge/💡%20Projects-100%2B%20Pages-6bf0c0?style=for-the-badge&labelColor=050a14" alt="100+ Projects"/>
-</p>
 
-<br/><br/>
+</div>
 
-<!-- ══════════════════════════ -->
-<!-- GIT ACTIVITY GRAPH         -->
-<!-- ══════════════════════════ -->
-<h3>📈 Git Activity Telemetry (31-Day Window)</h3>
+---
+
+<div align="center">
+
+### 📈 Git Activity Telemetry (31-Day Window)
+
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krylo-60&bg_color=050a14&color=00f2ff&line=7000ff&point=00f2ff&area=true&area_color=7000ff&hide_border=true" alt="GitHub Activity Graph" width="100%" max-width="750px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krylo-60&bg_color=050a14&color=00f2ff&line=7000ff&point=00f2ff&area=true&area_color=7000ff&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 </a>
 
-<br/><br/>
+</div>
 
-<!-- ══════════════════════════ -->
-<!-- CONTRIBUTION SNAKE         -->
-<!-- ══════════════════════════ -->
-<h3>👾 Contribution Matrix Snake</h3>
+---
+
+<div align="center">
+
+### 👾 Contribution Matrix Snake
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake-dark.svg" width="100%" max-width="750px" style="border-radius: 8px;" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Krylo-60/Krylo-60/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 
