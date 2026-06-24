@@ -117,8 +117,15 @@
 <!-- ══════════════════════════ -->
 <!-- TROPHY CABINET             -->
 <!-- ══════════════════════════ -->
-<h3>🏆 Trophy Cabinet</h3>
-<img src="https://github-profile-trophy.vercel.app/?username=Krylo-60&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" width="100%" style="border-radius: 8px;"/>
+<h3>🏆 Achievement Badges</h3>
+<p>
+<img src="https://img.shields.io/badge/🚀%20Master%20Coder-Grade%207-00f2ff?style=for-the-badge&labelColor=050a14" alt="Master Coder"/>
+<img src="https://img.shields.io/badge/⚡%20AI%20Builder-Gemini%20%26%20Antigravity-7000ff?style=for-the-badge&labelColor=050a14" alt="AI Builder"/>
+<img src="https://img.shields.io/badge/🌐%20Full--Stack-HTML%20%7C%20CSS%20%7C%20JS-00f2ff?style=for-the-badge&labelColor=050a14" alt="Full Stack"/>
+<img src="https://img.shields.io/badge/🎮%20Gamer-Level%20MAX-ff0055?style=for-the-badge&labelColor=050a14" alt="Gamer"/>
+<img src="https://img.shields.io/badge/🔥%20Building-Since%202024-ffb900?style=for-the-badge&labelColor=050a14" alt="Since 2024"/>
+<img src="https://img.shields.io/badge/💡%20Projects-100%2B%20Pages-6bf0c0?style=for-the-badge&labelColor=050a14" alt="100+ Projects"/>
+</p>
 
 <br/><br/>
 
