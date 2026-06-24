@@ -61,18 +61,18 @@
 <br/>
 
 <!-- Custom System Status Board -->
-<img src="https://github-profile-readme-vert.vercel.app/status-board.svg?v=1.0" alt="System Status Board" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://github-profile-readme-vert.vercel.app/status-board.svg?v=1.0" alt="System Status Board" width="370" />
 
 <br/><br/>
 
 <!-- Custom Tech Stack Grid -->
-<img src="https://github-profile-readme-vert.vercel.app/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://github-profile-readme-vert.vercel.app/tech-stack.svg?v=1.0" alt="Weapons of Choice" width="370" />
 
 <br/><br/>
 
 <!-- GitHub Streak Stats -->
 <a href="https://git.io/streak-stats">
-<img src="https://streak-stats.demolab.com/?user=Krylo-60&theme=tokyonight&background=050a14&ring=00f2ff&fire=7000ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7bdcff&sideLabels=7bdcff&dates=7bdcff&hide_border=true" alt="GitHub Streak Stats" width="100%" max-width="360px" style="border-radius: 8px; border: 1px solid rgba(0, 242, 255, 0.15);" />
+<img src="https://streak-stats.demolab.com/?user=Krylo-60&theme=tokyonight&background=050a14&ring=00f2ff&fire=7000ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7bdcff&sideLabels=7bdcff&dates=7bdcff&hide_border=true" alt="GitHub Streak Stats" width="370" />
 </a>
 
 </td>
@@ -103,13 +103,13 @@
 
 <h3>📊 GitHub Telemetry</h3>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api?username=Krylo-60&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&rank_icon=github" alt="GitHub Stats" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Krylo-60&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&rank_icon=github" alt="GitHub Stats" width="370"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krylo-60&layout=compact&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&langs_count=8" alt="Top Languages" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krylo-60&layout=compact&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&langs_count=8" alt="Top Languages" width="370"/>
 </a>
 
 </td>
