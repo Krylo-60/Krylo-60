@@ -1,10 +1,10 @@
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!-- KRISHIV VELOCITY — CYBERPUNK GITHUB PROFILE v2.0             -->
+<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v2.0             -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=200&section=header&text=Krishiv%20Velocity&fontColor=ffffff&fontSize=52&fontAlignY=40&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Krishiv Velocity Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=200&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=52&fontAlignY=40&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=62&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
 
 <!-- Typing Banner SVG -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
@@ -16,7 +16,7 @@
 <!-- Social Badges Row 1 -->
 <p>
 <a href="https://krishiv-new-portfoilo.vercel.app">
-  <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Krishiv%20Velocity-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Krishiv%20PB-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
 </a>
 <a href="https://www.youtube.com/@KryloBlox60">
   <img src="https://img.shields.io/badge/▶%20YouTube-@KryloBlox60-ff0055?style=for-the-badge&logo=youtube&logoColor=ffffff&labelColor=050a14" alt="YouTube"/>
@@ -55,7 +55,7 @@
 | 🎂 | **Age:** 11-year-old student developer |
 | 🌍 | **Mission:** Bold web experiences & beyond |
 | 🤝 | **AI Alliance:** Gemini + Antigravity agents |
-| 🎯 | **Objective:** Expand the Krishiv Velocity universe |
+| 🎯 | **Objective:** Expand the Krishiv PB universe |
 | 💡 | **Motto:** Try fast, build lean, refine always |
 
 <br/>
@@ -165,5 +165,5 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:00f2ff,100:050a14&height=120&section=footer&text=System%20Online%20%E2%9A%A1%202024&fontColor=ffffff&fontSize=18&fontAlignY=65&animation=fadeIn" width="100%" alt="Footer Wave"/>
 <br/>
-<sub>🌐 System active since 2024 · Designed with ⚡ by <b>Krishiv Velocity</b> &amp; AI Agents · Built different 🚀</sub>
+<sub>🌐 System active since 2024 · Designed with ⚡ by <b>Krishiv PB</b> &amp; AI Agents · Built different 🚀</sub>
 </div>
