@@ -57,7 +57,7 @@
 ### 🏆 GitHub Trophy Shelf
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=Krylo-60&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/>
+<img src="https://trophy.benkou.dev/?username=Krylo-60&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/>
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
