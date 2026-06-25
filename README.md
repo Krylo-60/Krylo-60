@@ -134,7 +134,7 @@
 
 | Project | What It Does |
 |---|---|
-| 🧠 [**Aether Suite v110**](https://krishiv-new-portfoilo.vercel.app/aether-core-v110.html) | AI dashboard evolved across 4 design generations |
+| 🧠 [**Aether Core AI v110**](https://aether-core-ai-gilt.vercel.app) ([Repo](https://github.com/Krylo-60/Aether-core-v110)) | Standalone AI workspace with 12-node failover mesh |
 | 🎛️ [**Master Nexus**](https://krishiv-new-portfoilo.vercel.app/krylo-blox-master-nexus.html) | High-density creator command center |
 | 🎵 [**Phonk Room**](https://krishiv-new-portfoilo.vercel.app/phonk-room.html) | Canvas audio visualizer pulsing to Nitro Voltage |
 | 🌌 [**Apps Galaxy**](https://krishiv-new-portfoilo.vercel.app/projects.html) | 100+ public pages & utility mini-apps |
