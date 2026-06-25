@@ -135,6 +135,7 @@
 | Project | What It Does |
 |---|---|
 | 🧠 [**Aether Core AI v110**](https://aether-core-ai-gilt.vercel.app) ([Repo](https://github.com/Krylo-60/Aether-core-v110)) | Standalone AI workspace with 12-node failover mesh |
+| 📟 [**Aether AI CLI**](https://www.npmjs.com/package/@krishivpb60/aether-ai-cli) ([Repo](https://github.com/Krylo-60/aether-ai-cli)) | Production-ready cyberpunk CLI assistant connecting 13+ AI providers globally |
 | 🎛️ [**Master Nexus**](https://krishiv-new-portfoilo.vercel.app/krylo-blox-master-nexus.html) | High-density creator command center |
 | 🎵 [**Phonk Room**](https://krishiv-new-portfoilo.vercel.app/phonk-room.html) | Canvas audio visualizer pulsing to Nitro Voltage |
 | 🌌 [**Apps Galaxy**](https://krishiv-new-portfoilo.vercel.app/projects.html) | 100+ public pages & utility mini-apps |
@@ -178,6 +179,9 @@
 
 <a href="https://github.com/Krylo-60/Krylo-60">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krylo-60 Repo" width="370"/>
+</a>
+<a href="https://github.com/Krylo-60/aether-ai-cli">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=aether-ai-cli&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Aether AI CLI Repo" width="370"/>
 </a>
 <a href="https://github.com/Krylo-60/krishiv-new-portfoilo">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=krishiv-new-portfoilo&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Portfolio Repo" width="370"/>
