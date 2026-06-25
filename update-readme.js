@@ -48,3 +48,27 @@ if (fs.existsSync(readmePath)) {
   console.error('[!] README.md not found!');
   process.exit(1);
 }
+
+// Read and update the index.html file
+let htmlPath = 'index.html';
+if (!fs.existsSync(htmlPath)) {
+  htmlPath = '../index.html'; // Fallback if run from a subfolder
+}
+
+if (fs.existsSync(htmlPath)) {
+  let html = fs.readFileSync(htmlPath, 'utf8');
+  let originalHtml = html;
+
+  // Replace occurrences of Grade and Age
+  html = html.replace(/Grade \d+ Master Coder/g, `Grade ${grade} Master Coder`);
+  html = html.replace(/\d+-year-old student developer/g, `${age}-year-old student developer`);
+
+  if (html !== originalHtml) {
+    fs.writeFileSync(htmlPath, html);
+    console.log(`[✓] Updated index.html: Grade ${grade}, Age ${age}.`);
+  } else {
+    console.log(`[✓] index.html is already up-to-date: Grade ${grade}, Age ${age}.`);
+  }
+} else {
+  console.warn('[!] index.html not found! Skipping html update.');
+}

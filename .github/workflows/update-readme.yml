@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add README.md
+          git add README.md index.html
           if ! git diff-index --quiet HEAD --; then
             git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m-%d)"
             git push
