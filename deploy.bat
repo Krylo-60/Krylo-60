@@ -1,6 +1,6 @@
 @echo off
 echo ==================================================
-echo    Krishiv Velocity README Auto-Deploy System
+echo    Krishiv PB README Auto-Deploy System
 echo ==================================================
 echo.
 

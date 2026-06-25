@@ -5,7 +5,7 @@ $TargetDir = "$PSScriptRoot"
 $RepoUrl = "https://github.com/$Username/$RepoName.git"
 
 Write-Output "=================================================="
-Write-Output "   Krishiv Velocity README Auto-Deploy System     "
+Write-Output "   Krishiv PB README Auto-Deploy System     "
 Write-Output "=================================================="
 Write-Output ""
 
