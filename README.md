@@ -154,13 +154,13 @@
 
 <h3>&#128200; GitHub Telemetry</h3>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api?username=Krylo-60&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&rank_icon=github" alt="GitHub Stats" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Krylo-60&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&rank_icon=github" alt="GitHub Stats" width="370"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krylo-60&layout=compact&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&langs_count=8" alt="Top Languages" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Krylo-60&layout=compact&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&langs_count=8" alt="Top Languages" width="370"/>
 </a>
 
 </td>
@@ -178,13 +178,13 @@
 ### &#128204; Pinned Repositories
 
 <a href="https://github.com/Krylo-60/Krylo-60">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krylo-60 Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krylo-60 Repo" width="370"/>
 </a>
 <a href="https://github.com/Krylo-60/aether-ai-cli">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=aether-ai-cli&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Aether AI CLI Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=aether-ai-cli&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Aether AI CLI Repo" width="370"/>
 </a>
 <a href="https://github.com/Krylo-60/krishiv-new-portfoilo">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Krylo-60&repo=krishiv-new-portfoilo&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Portfolio Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=krishiv-new-portfoilo&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Portfolio Repo" width="370"/>
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
