@@ -251,11 +251,11 @@
 </div>
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v1.3.0 - Developer Slash Command Suite](https://github.com/Krylo-60/aether-ai-cli/releases/tag/v1.3.0) in [Krylo-60/aether-ai-cli](https://github.com/Krylo-60/aether-ai-cli)
-2. 🚀 Published release [v1.3.4 - AI Workspace Search](https://github.com/Krylo-60/aether-ai-cli/releases/tag/v1.3.4) in [Krylo-60/aether-ai-cli](https://github.com/Krylo-60/aether-ai-cli)
-3. 🚀 Published release [v1.3.5 - Web Telemetry Dashboard](https://github.com/Krylo-60/aether-ai-cli/releases/tag/v1.3.5) in [Krylo-60/aether-ai-cli](https://github.com/Krylo-60/aether-ai-cli)
-4. 🚀 Published release [v1.4.0 - Voice Commands & Nerd Fonts](https://github.com/Krylo-60/aether-ai-cli/releases/tag/v1.4.0) in [Krylo-60/aether-ai-cli](https://github.com/Krylo-60/aether-ai-cli)
-5. 🚀 Published release [v1.4.3 - Rate Limit Recognition](https://github.com/Krylo-60/aether-ai-cli/releases/tag/v1.4.3) in [Krylo-60/aether-ai-cli](https://github.com/Krylo-60/aether-ai-cli)
+1. 🚀 Published release [v1.3.0 - Developer Slash Command Suite](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+2. 🚀 Published release [v1.3.4 - AI Workspace Search](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.4) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+3. 🚀 Published release [v1.3.5 - Web Telemetry Dashboard](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.5) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+4. 🚀 Published release [v1.4.0 - Voice Commands & Nerd Fonts](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.4.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+5. 🚀 Published release [v1.4.3 - Rate Limit Recognition](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.4.3) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
 <!--END_SECTION:activity-->
 
 <br/>
