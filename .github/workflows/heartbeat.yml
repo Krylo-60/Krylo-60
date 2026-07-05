@@ -1,14 +1,15 @@
-name: Update Profile Grade and Age
+name: Hourly System Heartbeat
 
 on:
   schedule:
-    # Runs at 00:00 UTC every single day to catch your birthday exactly on July 24th
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *' # Runs at the start of every hour
   workflow_dispatch: # Allows manual trigger
 
 jobs:
-  update-readme:
+  heartbeat:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,17 +19,18 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run update script
-        run: node update-readme.js
+      - name: Run Heartbeat Script
+        run: node heartbeat.js
 
-      - name: Commit and Push changes
+      - name: Commit and Push Heartbeat
         run: |
           git config --global user.name "Krylo-60"
           git config --global user.email "71krishivpb@gmail.com"
           git add README.md index.html
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m-%d)"
+            git commit -m "telemetry: system heartbeat update $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git pull origin main --rebase
             git push
           else
-            echo "No changes to commit"
+            echo "No telemetry changes detected"
           fi
