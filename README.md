@@ -252,11 +252,11 @@
 </div>
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [KryloSMP v1.0.0](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v1.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
-2. 🚀 Published release [v1.3.0 - Developer Slash Command Suite](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
-3. 🚀 Published release [v1.3.4 - AI Workspace Search](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.4) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
-4. 🚀 Published release [v1.3.5 - Web Telemetry Dashboard](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.5) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
-5. 🚀 Published release [v1.4.0 - Voice Commands & Nerd Fonts](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.4.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+1. 🚀 Published release [KryloSMP v2.0.0 - Neon Velocity Edition](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v2.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
+2. 🚀 Published release [KryloSMP v1.0.0](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v1.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
+3. 🚀 Published release [v1.3.0 - Developer Slash Command Suite](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+4. 🚀 Published release [v1.3.4 - AI Workspace Search](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.4) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
+5. 🚀 Published release [v1.3.5 - Web Telemetry Dashboard](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.5) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
 <!--END_SECTION:activity-->
 
 <br/>
