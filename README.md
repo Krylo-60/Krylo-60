@@ -181,13 +181,13 @@
 ### &#128204; Pinned Repositories
 
 <a href="https://github.com/Krylo-60/Krylo-60">
-<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krylo-60 Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=Krylo-60&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&v=1.1" alt="Krylo-60 Repo" width="370"/>
 </a>
 <a href="https://github.com/Krylo-60/krims-code-cli">
-<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=krims-code-cli&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Krims Code CLI Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=krims-code-cli&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&v=1.1" alt="Krims Code CLI Repo" width="370"/>
 </a>
 <a href="https://github.com/Krylo-60/Krishiv-portfolio">
-<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=Krishiv-portfolio&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff" alt="Portfolio Repo" width="370"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Krylo-60&repo=Krishiv-portfolio&theme=tokyonight&hide_border=true&bg_color=050a14&title_color=00f2ff&text_color=edf7ff&icon_color=7bdcff&v=1.1" alt="Portfolio Repo" width="370"/>
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1929,100:050a14&height=1&section=header" width="100%"/>
