@@ -136,7 +136,9 @@
 | Project | What It Does |
 |---|---|
 | 🧠 [**Aether Core AI v110**](https://aether-core-ai-gilt.vercel.app) ([Repo](https://github.com/Krylo-60/Aether-core-v110)) | Standalone AI workspace with 12-node failover mesh |
-| 📟 | [**Krims Code CLI**](https://www.npmjs.com/package/@krishivpb60/krims-code-cli) ([Repo](https://github.com/Krylo-60/krims-code-cli)) | Production-ready cyberpunk CLI assistant connecting 13+ AI providers globally |
+| 📟 [**Krims Code CLI**](https://www.npmjs.com/package/@krishivpb60/krims-code-cli) ([Repo](https://github.com/Krylo-60/krims-code-cli)) | Production-ready cyberpunk CLI assistant connecting 13+ AI providers globally |
+| 🛒 [**KryloSMP Web Store**](https://krylosmp-store-website.vercel.app) ([Repo](https://github.com/Krylo-60/krylosmp-store-website)) | E-commerce webstore for Minecraft with 100+ ranks, keys, auras, & chat tags. Features a custom 3% game tax, SheetDB Google Sheets logging, and real-time IP/VPN verification. |
+| 🤖 [**Krims Discord Bot**](https://github.com/Krylo-60/krims-discord-bot) | High-performance Discord bot deployed on Render. Handles in-game verify/link verification codes, Pterodactyl node commands, auto-syncing player ranks, and purchase notifications. |
 | 🎛️ [**Master Nexus**](https://krishiv-new-portfoilo.vercel.app/krylo-blox-master-nexus.html) | High-density creator command center |
 | &#127925; [**Phonk Room**](https://krishiv-new-portfoilo.vercel.app/phonk-room.html) | Canvas audio visualizer pulsing to Nitro Voltage |
 | 🌌 [**Apps Galaxy**](https://krishiv-new-portfoilo.vercel.app/projects.html) | 100+ public pages & utility mini-apps |
