@@ -14,7 +14,7 @@
 <br/>
 
 <!-- Typing Banner SVG Terminal -->
-<a href="https://krishiv-portfolio.vercel.app">
+<a href="https://krishiv-new-portfoilo.vercel.app">
 <img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRISHIV AND I BUILD" width="100%" />
 </a>
 
@@ -22,7 +22,7 @@
 
 <!-- Social Badges -->
 <p>
-<a href="https://krishiv-portfolio.vercel.app">
+<a href="https://krishiv-new-portfoilo.vercel.app">
   <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-Krishiv%20PB-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
 </a>
 <a href="https://www.youtube.com/@KryloBlox60">
@@ -76,7 +76,7 @@
 
 | | |
 |---|---|
-| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-portfolio.vercel.app/#saas) & [Krishiv PB Portfolio](https://krishiv-portfolio.vercel.app) |
+| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-new-portfoilo.vercel.app/#saas) & [Krishiv PB Portfolio](https://krishiv-new-portfoilo.vercel.app) |
 | 🌱 | **Learning:** Advanced Systems Architecture, Multi-Tenant SaaS, AI Failover Engines |
 | 🎯 | **2026 Goal:** Hit 1,000+ contributions & launch monetized SaaS products |
 | 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant · Minecraft 1.21.x |
@@ -107,7 +107,7 @@
 | 🤝 | **AI Alliance:** Gemini + Antigravity agents |
 | 🎯 | **Objective:** Expand the Krishiv PB ecosystem |
 | 💡 | **Motto:** Build fast, deploy lean, scale endlessly |
-| ⚡ | **System Heartbeat:** <!--HEARTBEAT_STATUS-->Online (Last sync: 2026-07-28 22:12:00 UTC)<!--HEARTBEAT_STATUS_END--> |
+| ⚡ | **System Heartbeat:** <!--HEARTBEAT_STATUS-->Online (Last sync: 2026-07-28 22:13:00 UTC)<!--HEARTBEAT_STATUS_END--> |
 
 <br/>
 
@@ -135,7 +135,7 @@
 
 | Project | What It Does |
 |---|---|
-| 💰 [**SMPLink SaaS**](https://krishiv-portfolio.vercel.app/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
+| 💰 [**SMPLink SaaS**](https://krishiv-new-portfoilo.vercel.app/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
 | 🤖 [**Krims Code AI Discord Bot**](https://github.com/Krylo-60/krims-discord-bot) | 16+ slash commands, economy, 4-button verification modal, Pterodactyl commands |
 | 🌐 [**KryloSMP Player Portal**](https://krylosmp-player-portal.vercel.app) | Live web dashboard with 3D skin heads, leaderboards, & JSON state inspector |
 | 🎮 [**KryloSMP Minecraft Network**](https://krylosmp-store-website.vercel.app) | 1.21.x survival network with custom Skript engines, bounties, & OP ranks |
