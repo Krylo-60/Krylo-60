@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,12 +27,12 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "Krylo-60"
-          git config --global user.email "71krishivpb@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md index.html
           if ! git diff-index --quiet HEAD --; then
             git commit -m "chore: auto-update age and academic grade for $(date +%Y-%m-%d)"
-            git push
+            git push origin main
           else
             echo "No changes to commit"
           fi
