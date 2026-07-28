@@ -14,7 +14,7 @@
 <br/>
 
 <!-- Typing Banner SVG Terminal -->
-<a href="https://krishiv-new-portfoilo.vercel.app">
+<a href="https://krishiv-portfolio.vercel.app">
 <img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRISHIV AND I BUILD" width="100%" />
 </a>
 
@@ -22,7 +22,7 @@
 
 <!-- Social Badges -->
 <p>
-<a href="https://krishiv-new-portfoilo.vercel.app">
+<a href="https://krishiv-portfolio.vercel.app">
   <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-Krishiv%20PB-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
 </a>
 <a href="https://www.youtube.com/@KryloBlox60">
@@ -76,12 +76,12 @@
 
 | | |
 |---|---|
-| &#128301; | **Working on:** [Krishiv PB Portfolio](https://krishiv-new-portfoilo.vercel.app) — 100+ apps & tools |
-| &#127793; | **Learning:** Advanced JavaScript, React, AI integrations |
-| &#127919; | **2025 Goal:** Hit 500 contributions & launch 10 new projects |
-| &#127918; | **Playing:** Asphalt 9 · Brawl Stars · Valorant |
-| &#128172; | **Ask me about:** HTML, CSS, JS, Firebase, Vercel, AI tools |
-| &#9889; | **Fun fact:** I started coding at age 10 and built 100+ web apps in one year! |
+| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-portfolio.vercel.app/#saas) & [Krishiv PB Portfolio](https://krishiv-portfolio.vercel.app) |
+| 🌱 | **Learning:** Advanced Systems Architecture, Multi-Tenant SaaS, AI Failover Engines |
+| 🎯 | **2026 Goal:** Hit 1,000+ contributions & launch monetized SaaS products |
+| 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant · Minecraft 1.21.x |
+| 💬 | **Ask me about:** HTML, CSS, JS, Node.js, Discord Bots, Skript, Vercel APIs |
+| ⚡ | **Fun fact:** I started coding at age 10 and built 100+ web apps in two years! |
 
 <!-- ========================================== -->
 <!-- BENTO LAYOUT — Main Content               -->
@@ -98,16 +98,16 @@
 <!-- Left Column: Bio + Tech Stack + Status -->
 <td width="50%" valign="top">
 
-<h3>&#9889; System Profile</h3>
+<h3>⚡ System Profile</h3>
 
 | | |
 |---|---|
-| &#127874; | **Age:** 12-year-old student developer |
-| &#127757; | **Mission:** Bold web experiences & beyond |
-| &#129309; | **AI Alliance:** Gemini + Antigravity agents |
-| &#127919; | **Objective:** Expand the Krishiv PB universe |
-| &#128161; | **Motto:** Try fast, build lean, refine always |
-| &#9889; | **System Heartbeat:** <!--HEARTBEAT_STATUS-->Online (Last sync: 2026-07-28 21:15:19 UTC)<!--HEARTBEAT_STATUS_END--> |
+| 🎂 | **Age:** 12-year-old student developer (Grade 7) |
+| 🌍 | **Mission:** High-speed web apps & monetized SaaS platforms |
+| 🤝 | **AI Alliance:** Gemini + Antigravity agents |
+| 🎯 | **Objective:** Expand the Krishiv PB ecosystem |
+| 💡 | **Motto:** Build fast, deploy lean, scale endlessly |
+| ⚡ | **System Heartbeat:** <!--HEARTBEAT_STATUS-->Online (Last sync: 2026-07-28 22:12:00 UTC)<!--HEARTBEAT_STATUS_END--> |
 
 <br/>
 
@@ -131,17 +131,17 @@
 <!-- Right Column: Projects + Gaming + Stats -->
 <td width="50%" valign="top">
 
-<h3>&#128640; Featured Projects</h3>
+<h3>🚀 Featured Projects & SaaS</h3>
 
 | Project | What It Does |
 |---|---|
-| 🧠 [**Aether Core AI v110**](https://aether-core-ai-gilt.vercel.app) ([Repo](https://github.com/Krylo-60/Aether-core-v110)) | Standalone AI workspace with 12-node failover mesh |
-| 📟 [**Krims Code CLI**](https://www.npmjs.com/package/@krishivpb60/krims-code-cli) ([Repo](https://github.com/Krylo-60/krims-code-cli)) | Production-ready cyberpunk CLI assistant connecting 13+ AI providers globally |
-| 🛒 [**KryloSMP Web Store**](https://krylosmp-store-website.vercel.app) ([Repo](https://github.com/Krylo-60/krylosmp-store-website)) | E-commerce webstore for Minecraft with 100+ ranks, keys, auras, & chat tags. Features a custom 3% game tax, SheetDB Google Sheets logging, and real-time IP/VPN verification. |
-| 🤖 [**Krims Discord Bot**](https://github.com/Krylo-60/krims-discord-bot) | High-performance Discord bot deployed on Render. Handles in-game verify/link verification codes, Pterodactyl node commands, auto-syncing player ranks, and purchase notifications. |
-| 🎛️ [**Master Nexus**](https://krishiv-new-portfoilo.vercel.app/krylo-blox-master-nexus.html) | High-density creator command center |
-| &#127925; [**Phonk Room**](https://krishiv-new-portfoilo.vercel.app/phonk-room.html) | Canvas audio visualizer pulsing to Nitro Voltage |
-| 🌌 [**Apps Galaxy**](https://krishiv-new-portfoilo.vercel.app/projects.html) | 100+ public pages & utility mini-apps |
+| 💰 [**SMPLink SaaS**](https://krishiv-portfolio.vercel.app/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
+| 🤖 [**Krims Code AI Discord Bot**](https://github.com/Krylo-60/krims-discord-bot) | 16+ slash commands, economy, 4-button verification modal, Pterodactyl commands |
+| 🌐 [**KryloSMP Player Portal**](https://krylosmp-player-portal.vercel.app) | Live web dashboard with 3D skin heads, leaderboards, & JSON state inspector |
+| 🎮 [**KryloSMP Minecraft Network**](https://krylosmp-store-website.vercel.app) | 1.21.x survival network with custom Skript engines, bounties, & OP ranks |
+| 📟 [**Krims Code CLI**](https://github.com/Krylo-60/krims-code-cli) | Production cyberpunk terminal assistant with multi-AI provider support |
+| ☁️ [**Krims Code Vercel API**](https://krims-code-chatbot.vercel.app) | Serverless cloud API managing player economy, clan data, & verification |
+| 🐍 [**3D Snake & CI/CD Workflows**](https://github.com/Krylo-60/Krylo-60) | Automated GitHub Actions workflow generating 3D matrix profile graphics |
 
 <br/>
 
