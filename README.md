@@ -102,7 +102,7 @@
 
 | | |
 |---|---|
-| &#127874; | **Age:** 11-year-old student developer |
+| &#127874; | **Age:** 12-year-old student developer |
 | &#127757; | **Mission:** Bold web experiences & beyond |
 | &#129309; | **AI Alliance:** Gemini + Antigravity agents |
 | &#127919; | **Objective:** Expand the Krishiv PB universe |
