@@ -254,7 +254,7 @@
 </div>
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [KryloSMP v3.0.0 ⚡ God Weapons Update](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v3.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
+1. 💪 Opened PR [#1](https://github.com/Krylo-60/LocatorBar-Ultimate/pull/1) in [Krylo-60/LocatorBar-Ultimate](https://github.com/Krylo-60/LocatorBar-Ultimate)
 2. 🚀 Published release [KryloSMP v2.0.0 - Neon Velocity Edition](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v2.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
 3. 🚀 Published release [KryloSMP v1.0.0](https://github.com/Krylo-60/krylo-smp-plugin/releases/tag/v1.0.0) in [Krylo-60/krylo-smp-plugin](https://github.com/Krylo-60/krylo-smp-plugin)
 4. 🚀 Published release [v1.3.0 - Developer Slash Command Suite](https://github.com/Krylo-60/krims-code-cli/releases/tag/v1.3.0) in [Krylo-60/krims-code-cli](https://github.com/Krylo-60/krims-code-cli)
