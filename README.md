@@ -1,10 +1,10 @@
 <!-- ================================================================ -->
-<!-- KRISHIV PB — CYBERPUNK GITHUB PROFILE v4.0 · GODLY EDITION   -->
+<!-- KRYLO — CYBERPUNK GITHUB PROFILE v4.0 · GODLY EDITION   -->
 <!-- ================================================================ -->
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krylo&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%202%2C780%2B%20Commits%20%7C%20Krylo%27s%20Skybase&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krylo&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%202%2C780%2B%20Commits%20%7C%20Krylo%27s%20Skybase&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krylo Header"/>
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://github.com/DenverCoder1/readme-typing-svg">
@@ -15,7 +15,7 @@
 
 <!-- Typing Banner SVG Terminal -->
 <a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRISHIV AND I BUILD" width="100%" />
+<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRYLO AND I BUILD" width="100%" />
 </a>
 
 <br/><br/>
@@ -43,7 +43,7 @@
 <img src="https://img.shields.io/github/followers/Krylo-60?style=for-the-badge&color=7000ff&labelColor=050a14&label=FOLLOWERS" alt="Followers"/>
 </p>
 
-<p><i>&#9889; "12-Year-Old Software Engineer with 2,780+ GitHub Commits · Architect of Krishiv Studios & Krylo's Skybase." &#9889;</i></p>
+<p><i>&#9889; "Full-Stack Software Engineer with 2,780+ GitHub Commits · Architect of Krishiv Studios & Krylo's Skybase." &#9889;</i></p>
 </div>
 
 <!-- ========================================== -->
@@ -76,7 +76,7 @@
 
 | | |
 |---|---|
-| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-new-portfoilo.vercel.app/#saas) & [Krishiv PB Portfolio](https://krishiv-new-portfoilo.vercel.app) |
+| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-new-portfoilo.vercel.app/#saas) & [Krylo Portfolio](https://krishiv-new-portfoilo.vercel.app) |
 | 🌱 | **Learning:** Advanced Systems Architecture, Multi-Tenant SaaS, AI Failover Engines |
 | 🎯 | **2026 Goal:** Surpass 3,500+ contributions & scale Krishiv Studios & Krylo's Skybase |
 | 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant · Minecraft 1.21.x |
@@ -222,7 +222,7 @@
 ### &#127941; Achievement Badges
 
 <img src="https://img.shields.io/badge/%E2%9A%A1%20GitHub%20Commits-2%2C780%2B-00f2ff?style=for-the-badge&labelColor=050a14" alt="2780+ Commits"/>
-<img src="https://img.shields.io/badge/%F0%9F%A7%A0%20Software%20Engineer-Elite%20Tier-7000ff?style=for-the-badge&labelColor=050a14" alt="Age 12"/>
+<img src="https://img.shields.io/badge/%F0%9F%A7%A0%20Software%20Engineer-Elite%20Tier-7000ff?style=for-the-badge&labelColor=050a14" alt="Software Engineer"/>
 <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Krishiv%20Studios-Founder-00f2ff?style=for-the-badge&labelColor=050a14" alt="Krishiv Studios"/>
 <img src="https://img.shields.io/badge/%F0%9F%91%91%20Krylo's%20Skybase-Creator-ff0055?style=for-the-badge&labelColor=050a14" alt="Krylo's Skybase"/>
 <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Master%20Coder-Prodigy-00f2ff?style=for-the-badge&labelColor=050a14" alt="Master Coder"/>
