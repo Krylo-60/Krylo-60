@@ -4,11 +4,11 @@
 
 <!-- Animated Wave Header -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Grade%207%20%7C%20Master%20Coder%20%7C%20Creator%20%7C%20Gamer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,50:00f2ff,100:7000ff&height=220&section=header&text=Krishiv%20PB&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=12-Year-Old%20Software%20Engineer%20%7C%202%2C780%2B%20Commits%20%7C%20Founder%20Krishiv%20Studios&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Krishiv PB Header"/>
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://github.com/DenverCoder1/readme-typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&width=700&height=45&lines=Full-Stack+Web+Developer;AI-Powered+Builder;Game+Creator+%26+Content+Maker;100%2B+Projects+Deployed;Building+Since+2024;The+Youngest+Master+Coder" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=00F2FF&center=true&vCenter=true&width=700&height=45&lines=Full-Stack+Software+Engineer;12-Year-Old+Creator;2%2C780%2B+GitHub+Commits;Founder+of+Krishiv+Studios;Architect+of+Krylo's+Skybase;AI-Powered+Systems+Builder" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -43,7 +43,7 @@
 <img src="https://img.shields.io/github/followers/Krylo-60?style=for-the-badge&color=7000ff&labelColor=050a14&label=FOLLOWERS" alt="Followers"/>
 </p>
 
-<p><i>&#9889; "Built to inspire. Built to dominate. Built by a Grade 7 Master Coder." &#9889;</i></p>
+<p><i>&#9889; "12-Year-Old Software Engineer with 2,780+ GitHub Commits · Architect of Krishiv Studios & Krylo's Skybase." &#9889;</i></p>
 </div>
 
 <!-- ========================================== -->
@@ -78,10 +78,10 @@
 |---|---|
 | 📡 | **Working on:** [SMPLink SaaS](https://krishiv-new-portfoilo.vercel.app/#saas) & [Krishiv PB Portfolio](https://krishiv-new-portfoilo.vercel.app) |
 | 🌱 | **Learning:** Advanced Systems Architecture, Multi-Tenant SaaS, AI Failover Engines |
-| 🎯 | **2026 Goal:** Hit 1,000+ contributions & launch monetized SaaS products |
+| 🎯 | **2026 Goal:** Surpass 3,500+ contributions & scale Krishiv Studios & Krylo's Skybase |
 | 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant · Minecraft 1.21.x |
 | 💬 | **Ask me about:** HTML, CSS, JS, Node.js, Discord Bots, Skript, Vercel APIs |
-| ⚡ | **Fun fact:** I started coding at age 10 and built 100+ web apps in two years! |
+| ⚡ | **Fun fact:** Started coding at age 10 — now at age 12 with 2,780+ GitHub commits and 100+ deployed projects! |
 
 <!-- ========================================== -->
 <!-- BENTO LAYOUT — Main Content               -->
@@ -102,10 +102,11 @@
 
 | | |
 |---|---|
-| 🎂 | **Age:** 12-year-old student developer (Grade 7) |
-| 🌍 | **Mission:** High-speed web apps & monetized SaaS platforms |
-| 🤝 | **AI Alliance:** Gemini + Antigravity agents |
-| 🎯 | **Objective:** Expand the Krishiv PB ecosystem |
+| 🎂 | **Age & Status:** 12-year-old software engineer & creator (Grade 7) |
+| 🧠 | **Philosophy:** Try ideas fast, build without bloat, and refine constantly. Expanding the digital universe. |
+| 📊 | **Contributions:** 2,780+ GitHub commits across 25+ cloud repositories |
+| 👑 | **Enterprises:** Founder of Krishiv Studios & Krylo's Skybase Ecosystem |
+| 🤝 | **AI Alliance:** Google Gemini + Antigravity Engineering Agents |
 | 💡 | **Motto:** Build fast, deploy lean, scale endlessly |
 | ⚡ | **System Heartbeat:** <!--HEARTBEAT_STATUS-->Online (Last sync: 2026-09-20 20:59:19 UTC)<!--HEARTBEAT_STATUS_END--> |
 
@@ -135,8 +136,10 @@
 
 | Project | What It Does |
 |---|---|
+| 👑 [**Krylo's Skybase Ecosystem**](https://discord.gg/skybase) | Official Aviation-themed YouTube production hub, casting crew, & gaming community |
+| 🤖 [**Krims Code AI Discord Suite**](https://github.com/Krylo-60/krims-discord-bot) | 60+ slash commands, 24/7 Render cloud engine, anti-spam telemetry, auto-mod & economy |
+| 🌐 [**Krishiv Studios Ecosystem**](https://krishivstudios.github.io) | Master published portal linking AI microservices, Vercel apps, & cloud infrastructure |
 | 💰 [**SMPLink SaaS**](https://krishiv-new-portfoilo.vercel.app/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
-| 🤖 [**Krims Code AI Discord Bot**](https://github.com/Krylo-60/krims-discord-bot) | 16+ slash commands, economy, 4-button verification modal, Pterodactyl commands |
 | 🌐 [**KryloSMP Player Portal**](https://krylosmp-player-portal.vercel.app) | Live web dashboard with 3D skin heads, leaderboards, & JSON state inspector |
 | 🎮 [**KryloSMP Minecraft Network**](https://krylosmp-store-website.vercel.app) | 1.21.x survival network with custom Skript engines, bounties, & OP ranks |
 | 📟 [**Krims Code CLI**](https://github.com/Krylo-60/krims-code-cli) | Production cyberpunk terminal assistant with multi-AI provider support |
@@ -218,6 +221,10 @@
 
 ### &#127941; Achievement Badges
 
+<img src="https://img.shields.io/badge/%E2%9A%A1%20GitHub%20Commits-2%2C780%2B-00f2ff?style=for-the-badge&labelColor=050a14" alt="2780+ Commits"/>
+<img src="https://img.shields.io/badge/%F0%9F%A7%A0%20Software%20Engineer-Age%2012-7000ff?style=for-the-badge&labelColor=050a14" alt="Age 12"/>
+<img src="https://img.shields.io/badge/%F0%9F%8C%90%20Krishiv%20Studios-Founder-00f2ff?style=for-the-badge&labelColor=050a14" alt="Krishiv Studios"/>
+<img src="https://img.shields.io/badge/%F0%9F%91%91%20Krylo's%20Skybase-Creator-ff0055?style=for-the-badge&labelColor=050a14" alt="Krylo's Skybase"/>
 <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Master%20Coder-Grade%207-00f2ff?style=for-the-badge&labelColor=050a14" alt="Master Coder"/>
 <img src="https://img.shields.io/badge/%E2%9A%A1%20AI%20Builder-Gemini%20%26%20Antigravity-7000ff?style=for-the-badge&labelColor=050a14" alt="AI Builder"/>
 <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Full--Stack-HTML%20%7C%20CSS%20%7C%20JS-00f2ff?style=for-the-badge&labelColor=050a14" alt="Full Stack"/>
