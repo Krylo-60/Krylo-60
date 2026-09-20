@@ -14,15 +14,15 @@
 <br/>
 
 <!-- Typing Banner SVG Terminal -->
-<a href="https://krishiv-new-portfoilo.vercel.app">
-<img src="https://github-profile-readme-vert.vercel.app/typing.svg?v=1.6" alt="HI, I AM KRYLO AND I BUILD" width="100%" />
+<a href="https://krishivstudios.github.io">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1000&color=00F2FF&background=050a14&center=true&vCenter=true&width=760&height=65&lines=krylo%40skybase%3A~%24+%2E%2Fstart_intro%2Esh;HI%2C+I+AM+KRYLO+AND+I+BUILD+THE+DIGITAL+UNIVERSE;Architect+of+Krylo's+Skybase+%26+Krishiv+Studios;2%2C780%2B+GitHub+Commits+Across+Production+Repos" alt="Krylo Terminal Intro" width="100%" />
 </a>
 
 <br/><br/>
 
 <!-- Social Badges -->
 <p>
-<a href="https://krishiv-new-portfoilo.vercel.app">
+<a href="https://krishivstudios.github.io">
   <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-Krylo-00f2ff?style=for-the-badge&logo=vercel&logoColor=050a14&labelColor=050a14" alt="Portfolio"/>
 </a>
 <a href="https://www.youtube.com/@KryloBlox60">
@@ -76,7 +76,7 @@
 
 | | |
 |---|---|
-| 📡 | **Working on:** [SMPLink SaaS](https://krishiv-new-portfoilo.vercel.app/#saas) & [Krylo Portfolio](https://krishiv-new-portfoilo.vercel.app) |
+| 📡 | **Working on:** [SMPLink SaaS](https://krishivstudios.github.io/#saas) & [Krylo Portfolio](https://krishivstudios.github.io) |
 | 🌱 | **Learning:** Advanced Systems Architecture, Multi-Tenant SaaS, AI Failover Engines |
 | 🎯 | **2026 Goal:** Surpass 3,500+ contributions & scale Krishiv Studios & Krylo's Skybase |
 | 🎮 | **Playing:** Asphalt 9 · Brawl Stars · Valorant · Minecraft 1.21.x |
@@ -139,7 +139,7 @@
 | 👑 [**Krylo's Skybase Ecosystem**](https://discord.gg/skybase) | Official Aviation-themed YouTube production hub, casting crew, & gaming community |
 | 🤖 [**Krims Code AI Discord Suite**](https://github.com/Krylo-60/krims-discord-bot) | 60+ slash commands, 24/7 Render cloud engine, anti-spam telemetry, auto-mod & economy |
 | 🌐 [**Krishiv Studios Ecosystem**](https://krishivstudios.github.io) | Master published portal linking AI microservices, Vercel apps, & cloud infrastructure |
-| 💰 [**SMPLink SaaS**](https://krishiv-new-portfoilo.vercel.app/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
+| 💰 [**SMPLink SaaS**](https://krishivstudios.github.io/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
 | 🌐 [**KryloSMP Player Portal**](https://krylosmp-player-portal.vercel.app) | Live web dashboard with 3D skin heads, leaderboards, & JSON state inspector |
 | 🎮 [**KryloSMP Minecraft Network**](https://krylosmp-store-website.vercel.app) | 1.21.x survival network with custom Skript engines, bounties, & OP ranks |
 | 📟 [**Krims Code CLI**](https://github.com/Krylo-60/krims-code-cli) | Production cyberpunk terminal assistant with multi-AI provider support |
