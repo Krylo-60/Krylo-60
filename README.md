@@ -137,7 +137,7 @@
 | Project | What It Does |
 |---|---|
 | 👑 [**Krylo's Skybase Ecosystem**](https://discord.gg/skybase) | Official Aviation-themed YouTube production hub, casting crew, & gaming community |
-| 🤖 [**Krims Code AI Discord Suite**](https://github.com/Krylo-60/krims-discord-bot) | 60+ slash commands, 24/7 Render cloud engine, anti-spam telemetry, auto-mod & economy |
+| 🤖 [**Krims Code AI & Premium Fleet**](https://github.com/Krylo-60/krims-discord-bot) | 100 enterprise slash commands, 0ms Groq LPUs, live Elite SMP sync, 2x XP leveling, & multi-turn memory |
 | 🌐 [**Krishiv Studios Ecosystem**](https://krishivstudios.github.io) | Master published portal linking AI microservices, Vercel apps, & cloud infrastructure |
 | 💰 [**SMPLink SaaS**](https://krishivstudios.github.io/#saas) | $9.99/mo subscription portal & Discord bot for Minecraft server owners |
 | 🌐 [**KryloSMP Player Portal**](https://krylosmp-player-portal.vercel.app) | Live web dashboard with 3D skin heads, leaderboards, & JSON state inspector |
