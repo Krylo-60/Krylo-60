@@ -28,6 +28,9 @@
 <a href="https://www.youtube.com/@KryloBlox60">
   <img src="https://img.shields.io/badge/%E2%96%B6%20YouTube-@KryloBlox60-ff0055?style=for-the-badge&logo=youtube&logoColor=ffffff&labelColor=050a14" alt="YouTube"/>
 </a>
+<a href="https://discord.gg/sYaVJtXgQb">
+  <img src="https://img.shields.io/badge/%F0%9F%92%AC%20Support%20Discord-sYaVJtXgQb-5865f2?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=050a14" alt="Support Discord"/>
+</a>
 <a href="https://discord.gg/QZ3KfPsH4Y">
   <img src="https://img.shields.io/badge/%F0%9F%92%AC%20Discord-Nexus%20Server-7000ff?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=050a14" alt="Discord"/>
 </a>
